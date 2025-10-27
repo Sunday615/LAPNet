@@ -1,5 +1,7 @@
 
-<script></script>
+<script setup>
+import Blogviewhomepage from './Blogviewhomepage.vue';
+</script>
 
 
 <template>
@@ -13,10 +15,12 @@
         <div class="title-blog">
             <p>ຂ່າວສານ ແລະ ກິດຈະກຳ</p>
         </div>
+          <div class="downblog">
+        <blogviewhomepage></blogviewhomepage>
     </div>
-    <div class="downblog">
-
     </div>
+    <div class="boxcontianer"></div>
+  
 </div>
 
 
@@ -26,11 +30,17 @@
 
 
 <style scoped>
+.boxcontianer{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
 
 .container-blog{
     width: 100%;
     height: 1300px;
-    border: 1px solid red;
+
+
 }
 .upsideblog{
     width: 100%;
@@ -66,8 +76,8 @@
 }
 .downblog{
     width: 100%;
-    height: 30%;
-    background-color: #fff;
-    border: 1px solid blue;
+    height: 750px;
+   
+
 }
 </style>

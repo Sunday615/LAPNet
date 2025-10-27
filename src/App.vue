@@ -12,6 +12,7 @@ import newsgrid_page2 from './components/Blog-news/page_of_news/newsgrid_page2.v
 <template>
 <RouterView></RouterView>
 
+
 </template>
 
 <style scoped>
