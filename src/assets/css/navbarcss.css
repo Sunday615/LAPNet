@@ -1,0 +1,57 @@
+@font-face {
+    font-family: notosanlao-regular;
+    src: url(../Fonts/NotoSansLao-Regular.ttf);
+}
+
+@font-face {
+    font-family: notosan-bold;
+    src: url(../Fonts/NotoSansLao-Bold.ttf);
+}
+@font-face {
+    font-family: notosan-black;
+    src: url(../Fonts/NotoSansLao-Black.ttf);
+}
+
+@theme{
+    --color-primary : ;
+    --color-secondary : ;
+    --color-navbar : #020923;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: notosanlao-regular;
+    background-color: #020923 ;
+
+}
+.img-logo{
+    margin-right: 250px;
+}
+
+.img-logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.info-navbar {
+    display: flex;
+    list-style: none;
+ 
+
+}
+.info-navbar a {
+    text-decoration: none;
+}
+
+.info-navbar li {
+    margin-right: 40px;
+    color: #fff;
+    font-size: 23px;
+    
+}

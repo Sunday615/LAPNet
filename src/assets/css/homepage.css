@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+
+@tailwind utilities;
+
+@font-face {
+    font-family: notosanlao;
+    src: url(../Fonts/Notosanlao/NotoSansLao-Regular.ttf);
+}
+
+@font-face {
+    font-family: notosanlao-bold;
+    src: url(../Fonts/Notosanlao/NotoSansLao-Bold.ttf);
+}
+
+@font-face {
+    font-family: notosanlao-black;
+    src: url(../Fonts/Notosanlao/NotoSansLao-Black.ttf);
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url(../Fonts/Inter/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: inter-bold;
+    src: url(../Fonts/Inter/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: inter-black;
+    src: url(../Fonts/Notosanlao/NotoSansLao-Black.ttf);
+}
+
+
+@font-face {
+    font-family: archivo;
+    src: url(../Fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
