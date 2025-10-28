@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import navbar_homepage from '../homepage/navbar-homepage/navbar-homepage.vue'
 
@@ -8,36 +7,45 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 
-function goproduct1(){
-  router.push({name: 'Product1'})
+function goproduct1() {
+    router.push({ name: 'Product1' })
 }
 </script>
 
 <template>
-   <navbar_homepage></navbar_homepage>
+    <navbar_homepage></navbar_homepage>
     <div class="contentimg1">
         <img src="../../assets/Homepage-assets/bg-page1.png" alt="">
     </div>
     <div class="titlecontent1">
         <div class="headercontent1">
-            <p>ການຊຳລະເງິນຂ້າມ<br>ທະນາຄານຜ່ານ QR</p>
+            <div data-aos="fade-down" data-aos-delay = "200">
+                <p>ການຊຳລະເງິນຂ້າມ<br>ທະນາຄານຜ່ານ QR</p>
+            </div>
+
         </div>
         <div class="infocontent1">
-            <p>ການຊໍາລະຂ້າມທະນາຄານຜ່ານ LAPNet QRPay ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ<br>Applications ຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ໃຫ້ສາມາດນຳໃຊ້ຟັງຊັ່ນການ<br>ດຳເນີນທຸລະກຳຊໍາລະຜ່ານ QR ຂອງທະນາຄານອື່ນໄດ້.</p>
+            <div data-aos="fade-down" data-aos-delay = "200">  <p>ການຊໍາລະຂ້າມທະນາຄານຜ່ານ LAPNet QRPay ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ<br>Applications
+                ຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ໃຫ້ສາມາດນຳໃຊ້ຟັງຊັ່ນການ<br>ດຳເນີນທຸລະກຳຊໍາລະຜ່ານ QR
+                ຂອງທະນາຄານອື່ນໄດ້.</p></div>
+          
 
-              <button @click=goproduct1()>
+<div data-aos="fade-up" data-aos-delay = "200">
+     <button @click=goproduct1()>
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
+</div>
+           
         </div>
         <div class="btn-product">
-      
+
         </div>
     </div>
-  
+
 </template>
 
 <style scoped>
-.navbar{
+.navbar {
 
     width: 100%;
     height: 120px;
@@ -47,42 +55,51 @@ function goproduct1(){
     justify-content: space-evenly;
     align-items: center;
 }
-.imglogo img{
+
+.imglogo img {
     width: 100px;
     height: 100px;
 }
-.listnav{
+
+.listnav {
     display: flex;
-    
+
 }
-.listnav ul{
+
+.listnav ul {
     list-style: none;
 }
+
 .listnav ul li {
     margin-right: 40px;
     font-family: notosanlao;
     font-size: 24px;
 }
-.listnav ul a{
+
+.listnav ul a {
     text-decoration: none;
     color: white;
-    
+
 }
-.rightbtn{
+
+.rightbtn {
     display: flex;
     font-size: 20px;
     color: white;
     margin-right: 30px;
 }
-.rightbtn a{
+
+.rightbtn a {
     text-decoration: none;
     color: white;
 }
-.search{
+
+.search {
     margin-left: 15px;
     size: 20px;
 }
-.contentimg1{
+
+.contentimg1 {
     width: 100%;
     height: auto;
 
@@ -90,28 +107,32 @@ function goproduct1(){
     z-index: -1;
     top: -5px;
 }
-.contentimg1 img{
+
+.contentimg1 img {
     width: 100%;
     height: 1000px;
 
 }
-.titlecontent1{
-margin-top: 100px;
-margin-left: 140px;
+
+.titlecontent1 {
+    margin-top: 100px;
+    margin-left: 140px;
 
 }
-.headercontent1 p{
+
+.headercontent1 p {
     font-size: 100px;
     color: white;
     font-family: notosanlao-bold;
     line-height: 1.2;
 }
-.infocontent1{
+
+.infocontent1 {
     margin-top: 25px;
     font-size: 25px;
     color: white;
     font-family: notosanlao;
- 
+
 
 }
 
@@ -158,5 +179,4 @@ button:hover span:after {
     opacity: 1;
     right: 0;
 }
-
 </style>

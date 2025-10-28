@@ -7,9 +7,12 @@
 <template>
     <div class="homepagecontent4">
         <img src="../../assets/Homepage-assets/bg-content4.png" alt="">
-          <button>
+        
+            <div data-aos="fade-up" data-aos-delay="700">
+                <button>
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
+            </div>
     </div>
   
 </template>

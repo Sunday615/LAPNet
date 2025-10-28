@@ -7,10 +7,16 @@
     <div class="content3homepage">
         <img src="../../assets/Homepage-assets/bg-content3.png" alt="">
         <div class="infocontent3">
-            <p>ການຊຳລະເງິນຂ້າມແດນ<br>ໃນຮູບແບບ QR CODE<br>ລະຫວ່າງປະເທດ</p>
-            <button>
+            <div data-aos="fade-right" data-aod-delay="300">
+                     <p>ການຊຳລະເງິນຂ້າມແດນ<br>ໃນຮູບແບບ QR CODE<br>ລະຫວ່າງປະເທດ</p>
+        
+            </div>
+            <div data-aos="fade-up" data-aos-dela="400">
+                <button>
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
+            </div>
+           
         </div>
 
     </div>
