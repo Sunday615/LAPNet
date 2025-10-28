@@ -6,8 +6,8 @@ import ft from '../Navbar-footer/ft.vue';
 
 const sendEmail = () => {
     const email = "info@laonet.com.la";
-    const subject = encodeURIComponent("สอบถามข้อมูลเพิ่มเติม");
-    const body = encodeURIComponent("สวัสดีครับ ผมอยากสอบถามเกี่ยวกับ...");
+    const subject = encodeURIComponent("ສອບຖາມຂໍ້ມູນເພີ່ມເຕີ່ມ");
+    const body = encodeURIComponent("ສະບາຍດີ ຂ້ອຍຢາກສອບຖາມຂໍ້ມູນເພີ່ມເຕີ່ມກ່ຽວກັບ...");
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 };
 
@@ -20,16 +20,7 @@ const openMap = () => {
 
 
 
-const callPhone = () => {
-  const phoneNumber = "030 568 7610";
-  if (/Mobi|Android/i.test(navigator.userAgent)) {
-    // ถ้าอยู่บนมือถือ
-    window.location.href = `tel:${phoneNumber}`;
-    window.open(`tel:${phoneNumber}`);
-  } else {
-    alert(`กรุณาโทรเบอร์นี้ด้วยมือถือ: ${phoneNumber}`);
-  }
-};
+
 
 
 </script>
