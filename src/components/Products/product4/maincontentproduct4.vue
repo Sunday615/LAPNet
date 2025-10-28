@@ -53,7 +53,7 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
         </div>
     </div>
      <div class="contentproduct1-page2">
-        <img id="bgpd1-page2" src="../../../assets/Productassets/product4/product4mobilebg.png" alt="">
+        <img id="bgpd1-page2" src="../../../assets/Productassets/product4/Product4benetfit-2.png" alt="">
         <div class="headerpage2-box1">
             <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
             <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
@@ -232,10 +232,11 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
 }
 
 .headerpage2-box1 {
-    width: 100%;
+    width: 64%;
     height: 390px;
+    padding-top: 40px;
 
-    padding-top: 80px;
+
 }
 
 .headerpage2-box1 h2 {
@@ -243,22 +244,23 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
     font-size: 30px;
     font-family: notosanlao-bold;
     margin-top: 40px;
-    text-align: center;
+   text-align: center;
 }
 
 .headerpage2-box1 p {
     color: #fff;
-    font-size: 23px;
+    font-size: 20px;
     font-family: notosanlao;
+    line-height: 2.0;
     padding-top: 70px;
-    text-align: center;
+   
 }
 
 .headerpage2-box1 h1 {
     font-size: 60px;
     color: #fff;
     font-family: notosanlao-bold;
-    text-align: center;
+ 
 
 }
 

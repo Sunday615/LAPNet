@@ -51,7 +51,7 @@ import ft from '../../Navbar-footer/ft.vue';
         </div>
     </div>
     <div class="contentproduct1-page2">
-        <img id="bgpd1-page2" src="../../../assets/Productassets/product4/product4mobilebg.png" alt="">
+        <img id="bgpd1-page2" src="../../../assets/Productassets/product5/modernnew.png" alt="">
         <div class="headerpage2-box1">
             <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
             <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
@@ -147,6 +147,10 @@ import ft from '../../Navbar-footer/ft.vue';
 
 
 <style scoped>
+#bgpd1-page2{
+    width: 100%;
+    height: 900px;
+}
 .logobox{
     width: 209px;
     margin-left: 6px;
@@ -213,8 +217,9 @@ import ft from '../../Navbar-footer/ft.vue';
     height: 100px;
 }
 .headerpage2-box1 {
-    width: 100%;
+    width: 57%;
     height: 390px;
+    
 
     padding-top: 80px;
 }
@@ -229,7 +234,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .headerpage2-box1 p {
     color: #fff;
-    font-size: 23px;
+    font-size: 19px;
     font-family: notosanlao;
     padding-top: 70px;
     text-align: center;
@@ -245,7 +250,8 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .contentproduct1-page2 {
     width: 100%;
-    height: 820px;
+    height: 900px;
+
 
 
 }

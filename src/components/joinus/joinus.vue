@@ -4,6 +4,7 @@ import ft from '../Navbar-footer/ft.vue';
 import positionDropdown from '../Dropdown/position-dropdown.vue';
 import department from '../Dropdown/department.vue';
 import levels from '../Dropdown/levels.vue';
+import imageswiper from '../autoscrolling/imageswiper.vue';
 </script>
 
 
@@ -69,7 +70,9 @@ import levels from '../Dropdown/levels.vue';
                         <h1>LIFT AT</h1>
                         <p>LAPNet</p>
                     </div>
-                    <div class="swiperdotpreview"></div>
+                    <div class="swiperdotpreview">
+                            <imageswiper></imageswiper>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -141,10 +144,12 @@ import levels from '../Dropdown/levels.vue';
 }
 
 .swiperdotpreview {
-    width: 360px;
-    height: 100px;
-
-    margin-top: 365px;
+    width: 1090px;
+    height: 1900px;
+    position: relative;
+    left: 262px;
+    top: -120px;
+ 
 }
 
 .headerswiper p {
@@ -209,7 +214,7 @@ import levels from '../Dropdown/levels.vue';
 .swipercontainer {
     width: 100%;
     height: 930px;
- 
+  
     margin-top: 130px;
 }
 
