@@ -6,19 +6,24 @@ import ft from '../../Navbar-footer/ft.vue';
 
 <template>
 
-  <navbartemplete></navbartemplete>
+    <navbartemplete></navbartemplete>
     <div class="navigatorcontent">
         <img id="navigator-img" src="../../../assets/Productassets/navigatorcontent-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                </div>
             </div>
             <div class="navigatorlink">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
-                            class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
-                        style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
-                    </span>ຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງປະເທດ</p>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                                class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
+                            style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
+                        </span>ຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງປະເທດ</p>\
+                </div>
             </div>
+
         </div>
     </div>
     <div class="boxpadding"></div>
@@ -33,29 +38,48 @@ import ft from '../../Navbar-footer/ft.vue';
                     <p> ຊຳລະເງິນຂ້າມແດນໃນຮູບແບບ<br>QR Code ລະຫວ່າງປະເທດ</p>
                 </div>
                 <div class="titleinfopage1">
-                    <p>ບໍລິສັດ LAPNet ໄດ້ຕໍ່ຍອດການພັດທະນາລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື <br>(LMPS) ເພື່ອຂະຫຍາຍຜະລິດຕະພັນ ຊຳລະຂ້າມທະນາຄານ ໃຫ້ສາມາດຮອງຮັບການ<br>ຊຳລະ ຄ່າສິນຄ້າ - ບໍລິການ ລະຫວ່າງປະເທດ, ໂດຍຜູ້ໃຊ້ Mobile banking ຂອງ<br>ທະນາຄານທີ່ເຂົ້າຮ່ວມໂຄງການ ໃນ ສປປ ລາວ ສາມາດເຮັດທຸລະກຳ ຊຳລະຂ້າມແດນໄປຍັງປະເທດທີ່ເຮັດການເຊື່ອມໂຍງລະບົບຊຳລະຂ້າມແດນ ລະຫວ່າງກັນ ແລະ ຮ້ານຄ້າທີ່ເປີດບັນຊີນຳທະນາຄານທີ່ເຂົ້າຮ່ວມໂຄງການໃນ ສປປ ລາວ ກໍ່ສາມາດຮັບການຊຳລະຄ່າສິນຄ້າ - ບໍລິການ ຈາກນັກທ່ອງທ່ຽວຕ່າງປະເທດທີ່ເຂົ້າມາ ສ ປປ ລາວ, ປັດຈຸບັນ LAPNet ໄດ້ຮ່ວມໂຄງການກັບ 4 ປະເທດຄື: ປະເທດກຳປູເຈຍ, ປະເທດໄທ, ປະເທດຈີນ ແລະ ປະເທດຫວຽດນາມ.</p>
+                    <p>ບໍລິສັດ LAPNet ໄດ້ຕໍ່ຍອດການພັດທະນາລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື <br>(LMPS) ເພື່ອຂະຫຍາຍຜະລິດຕະພັນ
+                        ຊຳລະຂ້າມທະນາຄານ ໃຫ້ສາມາດຮອງຮັບການ<br>ຊຳລະ ຄ່າສິນຄ້າ - ບໍລິການ ລະຫວ່າງປະເທດ, ໂດຍຜູ້ໃຊ້ Mobile
+                        banking ຂອງ<br>ທະນາຄານທີ່ເຂົ້າຮ່ວມໂຄງການ ໃນ ສປປ ລາວ ສາມາດເຮັດທຸລະກຳ
+                        ຊຳລະຂ້າມແດນໄປຍັງປະເທດທີ່ເຮັດການເຊື່ອມໂຍງລະບົບຊຳລະຂ້າມແດນ ລະຫວ່າງກັນ ແລະ
+                        ຮ້ານຄ້າທີ່ເປີດບັນຊີນຳທະນາຄານທີ່ເຂົ້າຮ່ວມໂຄງການໃນ ສປປ ລາວ ກໍ່ສາມາດຮັບການຊຳລະຄ່າສິນຄ້າ - ບໍລິການ
+                        ຈາກນັກທ່ອງທ່ຽວຕ່າງປະເທດທີ່ເຂົ້າມາ ສ ປປ ລາວ, ປັດຈຸບັນ LAPNet ໄດ້ຮ່ວມໂຄງການກັບ 4 ປະເທດຄື:
+                        ປະເທດກຳປູເຈຍ, ປະເທດໄທ, ປະເທດຈີນ ແລະ ປະເທດຫວຽດນາມ.</p>
                 </div>
+                <div data></div>
                 <div class="btnproduct">
-                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                        ການບໍລິການ</button>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                            ການບໍລິການ</button>
+                    </div>
+
                 </div>
             </div>
             <div class="rightcontentpage1">
-                <img id="topbg" src="../../../assets/Productassets/product6/topimg.png"
-                    alt="">
-                <img id="atmmachine" src="../../../assets/Productassets/product6/mobilemockup.png" alt="">
+                <div data-aos="fade-left" data-aos-duration="1400">
+                    <img id="topbg" src="../../../assets/Productassets/product6/topimg.png" alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <img id="atmmachine" src="../../../assets/Productassets/product6/mobilemockup.png" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product6/darkblue.png" alt="">
         <div class="headerpage2-box1">
-            <h1 style="font-size: 80px;">ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
-            <p style="font-size: 27px;">  ການເຊື່ອມໂຍງ ລະບົບການຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ ຈະອຳນວຍຄວາມສະດວກໃຫ້ກັບລູກຄ້າຂອງ<br>ທະນາຄານ ໃຫ້ສາມາດເຮັດທຸລະກຳຊຳລະຂ້າມແດນ ໄດ້ຢ່າງປອດໄພ ສະດວກສະບາຍ ວ່ອງໄວ ໂດຍສາມາດນຳໃຊ້ບັນຊີເງິນກີບໃນການ<br>ຊຳລະ ແລະ ຮ້ານຄ້າໃນ ສ ປປ ລາວ ກໍ່ສາມາດຮັບການສະແກນຈາກນັກທ່ອງທ່ຽວຕ່າງປະເທດໄດ້ ໂດຍຈະອຳນວຍຄວາມສະດວກໃນການ<br>ຮັບຊຳລະ ບໍ່ຫຍຸ້ງຍາກໃນການນຳໃຊ້ເງິນສົດ ແລະ ເງິນທອນຈາກຮ້ານຄ້າໃນເວລາຊຳລະເງິນ.
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h1 style="font-size: 80px;">ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
+                <p style="font-size: 27px;"> ການເຊື່ອມໂຍງ ລະບົບການຊຳລະຂ້າມແດນໃນຮູບແບບ QR Code ລະຫວ່າງປະເທດ
+                    ຈະອຳນວຍຄວາມສະດວກໃຫ້ກັບລູກຄ້າຂອງ<br>ທະນາຄານ ໃຫ້ສາມາດເຮັດທຸລະກຳຊຳລະຂ້າມແດນ ໄດ້ຢ່າງປອດໄພ ສະດວກສະບາຍ
+                    ວ່ອງໄວ ໂດຍສາມາດນຳໃຊ້ບັນຊີເງິນກີບໃນການ<br>ຊຳລະ ແລະ ຮ້ານຄ້າໃນ ສ ປປ ລາວ
+                    ກໍ່ສາມາດຮັບການສະແກນຈາກນັກທ່ອງທ່ຽວຕ່າງປະເທດໄດ້ ໂດຍຈະອຳນວຍຄວາມສະດວກໃນການ<br>ຮັບຊຳລະ
+                    ບໍ່ຫຍຸ້ງຍາກໃນການນຳໃຊ້ເງິນສົດ ແລະ ເງິນທອນຈາກຮ້ານຄ້າໃນເວລາຊຳລະເງິນ.
 
-            </p>
+                </p>
+            </div>
         </div>
-       
+
 
     </div>
     <div class="infomationcorss-border">
@@ -67,12 +91,13 @@ import ft from '../../Navbar-footer/ft.vue';
 
 
 <style scoped>
-.infomationcorss-border{
+.infomationcorss-border {
     width: 100%;
     height: 1900px;
     border: 1px solid red;
     margin-top: 20px;
 }
+
 #bgpd1-page2 {
     width: 100%;
     height: 820px;
@@ -111,9 +136,9 @@ import ft from '../../Navbar-footer/ft.vue';
     text-align: center;
 
 }
-.contentproduct1-page2 img{
-    
-}
+
+.contentproduct1-page2 img {}
+
 .contentproduct1-page2 {
     width: 100%;
     height: 800px;
@@ -143,7 +168,7 @@ import ft from '../../Navbar-footer/ft.vue';
     position: relative;
     top: -30px;
     right: -100px;
-    
+
 
 }
 
@@ -289,6 +314,4 @@ import ft from '../../Navbar-footer/ft.vue';
         min-width: 150px;
     }
 }
-
-
 </style>

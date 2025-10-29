@@ -63,18 +63,21 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
      <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product4/Product4benetfit-2.png" alt="">
         <div class="headerpage2-box1">
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
             <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
             <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
             <p>ຊ່ວຍຫຼຸດຜ່ອນຕົ້ນທຶນທາງດ້ານບຸກຄະລາກອນທີ່ໃຫ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານໜ່ວຍງານບໍລິການ ຫຼື ຕູ້ ATM ຂອງແຕ່ລະ<br>ທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ນັ້ນ, ໃຫ້ລູກຄ້າຫັນມານຳໃຊ້ ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື ໃນການດຳເນີນທຸລະກຳ.
 
             </p>
+            </div>
         </div>
         <div class="headerpage2-box1">
-
+            <div data-aos-duration="1000" data-aos="zoom-in-down">
             <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
             <p>ຜະລິດຕະພັນ ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖືນີ້ ຈະຊ່ວຍອຳນວຍຄວາມສະດວກໃຫ້ແກ່ມວນຊົນໃນການດຳເນີນທຸລະກຳທາງການເງິນ<br>ຢູ່ເທິງມືຖືໄດ້ງ່າຍ ແລະ ວ່ອງໄວຂື້ນ ໂດຍນຳໃຊ້ Applications ຂອງແຕ່ລະທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet,<br> ຕາມຄຳຂວັນທີ່ກ່າວໄວ້ວ່າ: “ ທຸກທີ່ ທຸກເວລາ ທຸກຊ່ອງທາງການຊຳລະ”
 
             </p>
+            </div>
         </div>
 
     </div>

@@ -14,12 +14,15 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
         <img id="navigator-img" src="../../assets/joinusassets/navigatorjoinus.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
+                 <div data-aos="zoom-in-down" data-aos-duration="1000">
                 <p>ຮ່ວມງານກັບພວກເຮົາ</p>
             </div>
+            </div>
             <div class="navigatorlink">
+                   <div data-aos="zoom-out-up" data-aos-duration="1000">
                 <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
                             class="fa-solid fa-chevron-right"></i></span> ຮ່ວມງານກັບພວກເຮົາ
-                </p>
+                </p></div>
             </div>
         </div>
     </div>

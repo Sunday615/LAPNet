@@ -4,7 +4,8 @@
     <div class="logo-box">
         <img id="bg" src="../../assets/footer-assets/footerasset.png" alt="">
         <div class="title">
-            <h1>ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື</h1>
+                  <div data-aos="zoom-out-up" data-aos-duration="1000">
+            <h1>ສະມາຊິກລະບົບຊຳລະຂ້າມທະນາຄານເທິງມືຖື</h1></div>
         </div>
         <div class="logo">
             <div class="row1">

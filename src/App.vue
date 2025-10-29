@@ -9,10 +9,13 @@ import newsgrid_page2 from './components/Blog-news/page_of_news/newsgrid_page2.v
 import imageswiper from './components/autoscrolling/imageswiper.vue';
 import popup from './components/popup/popup.vue';
 
+import GSAPtyping from './components/typing /GSAPtyping.vue';
 </script>
 
 <template>
-<RouterView></RouterView>
+<!-- <RouterView></RouterView> -->
+<GSAPtyping></GSAPtyping>
+
 </template>
 
 <style scoped>
