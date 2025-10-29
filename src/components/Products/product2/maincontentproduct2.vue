@@ -14,13 +14,18 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
         <img id="navigator-img" src="../../../assets/Productassets/navigatorcontent-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                </div>
+
             </div>
             <div class="navigatorlink">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
-                            class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
-                        style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
-                    </span> ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
+                    <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                                class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
+                            style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
+                        </span> ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                </div>
             </div>
         </div>
     </div>
@@ -41,37 +46,48 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
                         ເນເຊີນນໍເພເມັ້ນ ເນັດເວີກ ໃຫ້ສາມາດໃຊ້ຟັງຊັ່ນການຖອນ<br>ເງິນຂ້າມທະນາຄານໄດ້.</p>
                 </div>
                 <div class="btnproduct">
-                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                        ການບໍລິການ</button>
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                            ການບໍລິການ</button>
+                    </div>
                 </div>
             </div>
             <div class="rightcontentpage1">
-                <img id="topbg" src="../../../assets/Productassets/product2/jan-antonin-kolar-Sc5HUu4XzTk-unsplash.jpg"
-                    alt="">
-                <img id="atmmachine" src="../../../assets/Productassets/product2/ATMproduct2.PNG" alt="">
+                <div data-aos="fade-left" data-aos-duration="1400">
+                    <img id="topbg"
+                        src="../../../assets/Productassets/product2/jan-antonin-kolar-Sc5HUu4XzTk-unsplash.jpg" alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <img id="atmmachine" src="../../../assets/Productassets/product2/ATMproduct2.PNG" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product2/product2detailbg.png" alt="">
         <div class="headerpage2-box1">
-            <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
-            <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
-            <p>ປະຢັດຄ່າໃຊ້ຈ່າຍໃນການລົງທຶນເຊັ່ນ: ຫຼດຜ່ອນຄ່າໃຊ້ຈ່າຍໃນການຂະຫຍາຍຕູ້ ATM ແລະ
-                ຄ່າບຳລຸງຮັກສາທີ່ຕິດພັນກັບການ<br>ຂະຫຍາຍຕູ້ ATM; ເພີ່ມຈຸດບໍລິການຕູ້ ATM
-                ແກ່ລູກຄ້າຂອງທະນາຄານທີ່ເຂົ້າເປັນສະມາຊິກ ຊຶ່ງສາມາດບໍລິການລູກຄ້າໄດ້ທົ່ວປະເທດ<br>
-                ດ້ວຍຄ່າໃຊ້ຈ່າຍໃນການລົງທຶນຕໍ່າ.
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
+                <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
+                <p>ປະຢັດຄ່າໃຊ້ຈ່າຍໃນການລົງທຶນເຊັ່ນ: ຫຼດຜ່ອນຄ່າໃຊ້ຈ່າຍໃນການຂະຫຍາຍຕູ້ ATM ແລະ
+                    ຄ່າບຳລຸງຮັກສາທີ່ຕິດພັນກັບການ<br>ຂະຫຍາຍຕູ້ ATM; ເພີ່ມຈຸດບໍລິການຕູ້ ATM
+                    ແກ່ລູກຄ້າຂອງທະນາຄານທີ່ເຂົ້າເປັນສະມາຊິກ ຊຶ່ງສາມາດບໍລິການລູກຄ້າໄດ້ທົ່ວປະເທດ<br>
+                    ດ້ວຍຄ່າໃຊ້ຈ່າຍໃນການລົງທຶນຕໍ່າ. </p>
+            </div>
 
-            </p>
+
+
         </div>
         <div class="headerpage2-box1">
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
+                <p>ລູກຄ້າສາມາດນໍາໃຊ້ຕູ້ ATM ຂອງທຸກທະນາຄານທີ່ເປັນສະມາຊິກ ຂອງລະບົບ LAPS
+                    ຊຶ່ງປັດຈຸບັນມີທະນາຄານສະມາຊິກທັງໝົດ<br>
+                    16 ທະນາຄານ ເປັນການອຳນວຍຄວາມສະດວກ ແລະ ປະຢັດເວລາ ໂດຍລູກຄ້າບໍ່ຈໍາເປັນຕ້ອງລໍຖ້າການໃຊ້ບໍລິການ ຫຼື
+                    ຊອກຫາຕູ້ເອທີເອັມ<br>ຂອງທະນາຄານຜູ້ອອກບັດເທົ່ານັ້ນ.
 
-            <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
-            <p>ລູກຄ້າສາມາດນໍາໃຊ້ຕູ້ ATM ຂອງທຸກທະນາຄານທີ່ເປັນສະມາຊິກ ຂອງລະບົບ LAPS ຊຶ່ງປັດຈຸບັນມີທະນາຄານສະມາຊິກທັງໝົດ<br>
-                16 ທະນາຄານ ເປັນການອຳນວຍຄວາມສະດວກ ແລະ ປະຢັດເວລາ ໂດຍລູກຄ້າບໍ່ຈໍາເປັນຕ້ອງລໍຖ້າການໃຊ້ບໍລິການ ຫຼື
-                ຊອກຫາຕູ້ເອທີເອັມ<br>ຂອງທະນາຄານຜູ້ອອກບັດເທົ່ານັ້ນ.
-
-            </p>
+                </p>
+            </div>
         </div>
 
     </div>
@@ -82,31 +98,34 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
                 <p style="font-family: notosanlao; font-size: 27px;">ລູກຄ້າທີ່ມີບັດ ATM ຂອງທະນາຄານທີ່ເປັນສະມາຊິກຂອງ
                     LAPNet <br>ສາມາດຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM ຂອງທະນາຄານສະມາຊິກ <br> ໂດຍສາມາດສັງເກດໄດ້ຈາກສັນຍາລັກ
                     LAPNet ວົງມົນສີຟ້າທີ່ຕິດຢູ່ໜ້າຕູ້ <br>ATM.</p>
-                    
+
                 <p style="color:blue; margin-top: 5px; font-family: notosanlao; font-size: 27px;">
                     ເຊິ່ງການຖອນເງິນສົດຂ້າມຕູ້ເອທີເອັມນີ້ແມ່ນຈະຕ້ອງໄດ້ເສຍຄ່າທຳນຽມ 2,000 ກີບ ຕໍ່ ຄັ້ງ.</p>
-            
+
             </div>
+
             <div class="btnproduct">
-                <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                    ການບໍລິການ</button>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                        ການບໍລິການ</button>
+                </div>
             </div>
 
         </div>
         <div class="cardswiper">
-                <infinitescrolling></infinitescrolling>
+            <infinitescrolling></infinitescrolling>
         </div>
     </div>
-  <div class="memberservicepage">
+    <div class="memberservicepage">
         <img id="memberservice-bg" src="../../../assets/Productassets/product2/memberserviepd2.png" alt="">
         <div class="leftbox-memberservice">
-       
+
         </div>
         <div class="rightbox-memberservice">
             <div class="titlememberservice">
                 <p>ທະນາຄານທີ່ໃຫ້ບໍລິການ</p>
             </div>
-           
+
         </div>
     </div>
     <ft></ft>
@@ -115,13 +134,14 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 
 
 <style scoped>
-.logomemberservice{
+.logomemberservice {
     width: 70%;
     margin-top: 80px;
     height: 60%;
     margin-left: 90px;
-  
+
 }
+
 .titlememberservice p {
     font-size: 85px;
     font-family: notosanlao-black;
@@ -136,7 +156,7 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 .rightbox-memberservice {
     width: 50%;
     height: 100%;
- 
+
     margin-left: 20px;
 }
 
@@ -163,7 +183,7 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
     width: 50%;
     padding-left: 90px;
     height: 100%;
-   
+
     padding-top: 120px;
 
 
@@ -176,9 +196,9 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 
 }
 
-#memberservice-bg{
+#memberservice-bg {
     width: 100%;
-    
+
     position: absolute;
     z-index: -1;
     height: 800px;
@@ -195,11 +215,11 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 .cardswiper {
     width: 40%;
     height: 100%;
-   
+
     display: flex;
     justify-content: center;
 
-  
+
 }
 
 .infocondition {

@@ -1,5 +1,11 @@
-<script>
+<script setup>
+import { useRouter } from 'vue-router';
+const router = useRouter()
 
+
+function goproduct6() {
+    router.push("/products-service/products-6")
+}
 </script>
 
 
@@ -12,7 +18,7 @@
         
             </div>
             <div data-aos="fade-up" data-aos-dela="400">
-                <button>
+                <button @click = goproduct6()>
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
             </div>

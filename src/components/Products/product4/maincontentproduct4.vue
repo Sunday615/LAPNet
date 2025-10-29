@@ -17,13 +17,17 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
         <img id="navigator-img" src="../../../assets/Productassets/navigatorcontent-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
                 <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                </div>
             </div>
             <div class="navigatorlink">
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
                 <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
                             class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
                         style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
                     </span> ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</p>
+                    </div>
             </div>
         </div>
     </div>
@@ -42,13 +46,17 @@ import iconfloat from '../../floatingicon/iconfloat.vue';
                     <p>ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື (Fund Transfer via Mobile <br> Application) ໂດຍນຳໃຊ້ລະບົບ LMPS ໃນການເຊື່ອມໂຍງຜ່ານ <br>Applications ຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດລາວ <br>ເນເຊີນນໍເພເມັ້ນ ເນັດເວີກ ໃຫ້ສາມາດໃຊ້ຟັງຊັ່ນການດຳເນີນທຸລະກຳໂອນ<br>ເງິນຂ້າມທະນາຄານໄດ້.</p>
                 </div>
                 <div class="btnproduct">
+                    <div data-aos="fade-up" data-aos-duration="1000">
                     <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                        ການບໍລິການ</button>
+                        ການບໍລິການ</button></div>
                 </div>
             </div>
             <div class="rightcontentpage1">
-                <img id="topbg" src="../../../assets/Productassets/product4/Rectangle 1.png" alt="">
+                <div data-aos="fade-left" data-aos-duration="1400">
+                <img id="topbg" src="../../../assets/Productassets/product4/Rectangle 1.png" alt=""></div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
                 <img id="mobile" src="../../../assets/Productassets/product4/mobile.png" alt="">
+                </div>
             </div>
         </div>
     </div>

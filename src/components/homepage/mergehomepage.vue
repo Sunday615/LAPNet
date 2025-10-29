@@ -13,16 +13,23 @@
 
 <template>
     
- <homepage></homepage>
+<div class="hiden-overflow">
+     <homepage></homepage>
  <homepagecontent2></homepagecontent2>
  <homepagecontent3></homepagecontent3>
  <homepagecontent4></homepagecontent4>
  <memberscrolling></memberscrolling>
  <news></news>
  <ft></ft>
+</div>
 
 </template>
 
 <style scoped>
+    .hiden-overflow{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
 
+    }
 </style>

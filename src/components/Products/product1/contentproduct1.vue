@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 
 
 </script>
@@ -9,13 +9,25 @@
         <img id="navigator-img" src="../../../assets/Productassets/navigatorcontent-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                </div>
+
+
+
+
             </div>
             <div class="navigatorlink">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
+                         <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
                             class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
                         style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
                     </span> ກວດຍອດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                </div>
+
+           
+
+
             </div>
         </div>
     </div>
@@ -25,72 +37,117 @@
         <div class="containerframe1">
             <div class="leftcontentpage1">
                 <div class="producttitlepage1">
-                    <p>ຜະລິດຕະພັນ ແລະ ການບໍລີການ</p>
+                    <div>
+
+                        <p>ຜະລິດຕະພັນ ແລະ ການບໍລີການ</p>
+                    </div>
+
+
                 </div>
                 <div class="headerproductpage1">
-                    <p> ກວດຍອດເງິນຂ້າມ<br>ທະນາຄານຜ່ານຕູ້ ATM</p>
+                    <div>
+                        <p> ກວດຍອດເງິນຂ້າມ<br>ທະນາຄານຜ່ານຕູ້ ATM</p>
+                    </div>
+
                 </div>
                 <div class="titleinfopage1">
-                    <p>ການກວດຍອດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM
-                        ແມ່ນນຳໃຊ້ລະບົບ<br>ແລັບໃນການເຊື່ອມໂຍງຕູ້ເອທີເອັມຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກ<br>ຂອງບໍລິສັດລາວ
-                        ເນເຊີນນໍເພເມັ້ນ ເນັດເວີກ ໃຫ້ສາມາດໃຊ້ຟັງຊັ່ນການກວດ<br>ຍອດເງິນຂ້າມທະນາຄານໄດ້.</p>
+                    <div>
+                        <p>ການກວດຍອດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM
+                            ແມ່ນນຳໃຊ້ລະບົບ<br>ແລັບໃນການເຊື່ອມໂຍງຕູ້ເອທີເອັມຂອງແຕ່ລະທະນາຄານທີ່ເປັນສະມາຊິກ<br>ຂອງບໍລິສັດລາວ
+                            ເນເຊີນນໍເພເມັ້ນ ເນັດເວີກ ໃຫ້ສາມາດໃຊ້ຟັງຊັ່ນການກວດ<br>ຍອດເງິນຂ້າມທະນາຄານໄດ້.</p>
+                    </div>
+
                 </div>
                 <div class="btnproduct">
-                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                        ການບໍລິການ</button>
+
+                    <div data-aos="fade-up" data-aos-once="true">
+                        <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                            ການບໍລິການ</button>
+                    </div>
+
                 </div>
             </div>
             <div class="rightcontentpage1">
-                <img id="topbg" src="../../../assets/Productassets/product1/pd1bg.jpg" alt="">
-                <img id="atmmachine" src="../../../assets/Productassets/product1/atmmachine.PNG" alt="">
+                <div data-aos="fade-left" data-aos-duration="1400"> <img id="topbg"
+                        src="../../../assets/Productassets/product1/pd1bg.jpg" alt=""> </div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <img id="atmmachine" src="../../../assets/Productassets/product1/atmmachine.PNG" alt="">
+                </div>
+
             </div>
         </div>
     </div>
     <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product1/pd1page2.png" alt="">
         <div class="headerpage2-box1">
-            <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
-            <p>ປະຢັດ​ເວລາ, ສະດວກ ໂດຍລູກຄ້າບໍ່ຕ້ອງລໍຖ້າການໃຊ້ບໍລິການ ຫຼື ຊອກຫາຕູ້​ເອທີ​ເອັມຂອງ ທະນາຄານຜູ້ອອກບັດ
-                ກໍ່ສາມາດ<br>ກວດຍອດເງິນຜ່ານຕູ້​ເອທີ​ເອັມຂອງບັນດາທະນາຄານທຸກລະກິດທີ່ເຊື່ອມຕໍ່ກັບລະບົບແລັບ.​​
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
 
-            </p>
+            </div>
+
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
+                <p>ປະຢັດ​ເວລາ, ສະດວກ ໂດຍລູກຄ້າບໍ່ຕ້ອງລໍຖ້າການໃຊ້ບໍລິການ ຫຼື ຊອກຫາຕູ້​ເອທີ​ເອັມຂອງ ທະນາຄານຜູ້ອອກບັດ
+                    ກໍ່ສາມາດ<br>ກວດຍອດເງິນຜ່ານຕູ້​ເອທີ​ເອັມຂອງບັນດາທະນາຄານທຸກລະກິດທີ່ເຊື່ອມຕໍ່ກັບລະບົບແລັບ.​​
+
+                </p>
+            </div>
+
         </div>
         <div class="headerpage2-box1">
-            <h1>​ເງື່ອນໄຂການໃຊ້ບໍລິການ</h1>
-            <p>ລູກຄ້າ​ທີ່ມີ​ບັດ​ເອທີເອັມຂອງ​ທະນາຄານ​ທີ່​ເປັນ​ສະມາຊິກ​ຂອງ ແລັບເນັດ, ໂດຍສາມາດສັງເກດໄດ້ຈາກ
-                ສັນຍາ​ລັກແລັບເນັດທີ່<br>ຕິດຕາມຕູ້ເອທີເອັມ ກໍສາມາດໃຊ້ຮ່ວມກັນໄດ້.
-                ເຊິ່ງການກວດຍອດເງິນຂ້າມຕູ້ເອທີເອັມນີ້ແມ່ນບໍ່ເສຍຄ່າທຳນຽມໃດໆທັງນັ້ນ.
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h1>​ເງື່ອນໄຂການໃຊ້ບໍລິການ</h1>
+                <p>ລູກຄ້າ​ທີ່ມີ​ບັດ​ເອທີເອັມຂອງ​ທະນາຄານ​ທີ່​ເປັນ​ສະມາຊິກ​ຂອງ ແລັບເນັດ, ໂດຍສາມາດສັງເກດໄດ້ຈາກ
+                    ສັນຍາ​ລັກແລັບເນັດທີ່<br>ຕິດຕາມຕູ້ເອທີເອັມ ກໍສາມາດໃຊ້ຮ່ວມກັນໄດ້.
+                    ເຊິ່ງການກວດຍອດເງິນຂ້າມຕູ້ເອທີເອັມນີ້ແມ່ນບໍ່ເສຍຄ່າທຳນຽມໃດໆທັງນັ້ນ.
 
 
-            </p>
+                </p>
+            </div>
+
         </div>
     </div>
     <div class="memberservicepage">
         <img id="memberservice-bg" src="../../../assets/Productassets/product1/bgmemberservice-logo.png" alt="">
         <div class="leftbox-memberservice">
-       
+
         </div>
         <div class="rightbox-memberservice">
             <div class="titlememberservice">
                 <p>ທະນາຄານທີ່ໃຫ້ບໍລິການ</p>
             </div>
-           
+
         </div>
     </div>
 </template>
 
 
 <style>
+.typing-box {
+    font-family: notosanlao;
+    font-size: 19px;
+    color: #000000;
+
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
 
 
 
-.logomemberservice{
+.logomemberservice {
     width: 70%;
     margin-top: 80px;
     height: 60%;
     margin-left: 90px;
-  
+
 }
+
 .titlememberservice p {
     font-size: 85px;
     font-family: notosanlao-black;
@@ -105,7 +162,7 @@
 .rightbox-memberservice {
     width: 50%;
     height: 100%;
- 
+
     margin-left: 20px;
 }
 
@@ -132,7 +189,7 @@
     width: 50%;
     padding-left: 90px;
     height: 100%;
-   
+
     padding-top: 120px;
 
 
@@ -145,9 +202,9 @@
 
 }
 
-#memberservice-bg{
+#memberservice-bg {
     width: 100%;
-    
+
     position: absolute;
     z-index: -1;
     height: 800px;

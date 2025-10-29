@@ -7,9 +7,10 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 
-function goproduct1() {
-    router.push({ name: 'Product1' })
+function goproduct5() {
+    router.push("/products-service/products-5")
 }
+
 </script>
 
 <template>
@@ -31,7 +32,7 @@ function goproduct1() {
           
 
 <div data-aos="fade-up" data-aos-delay = "200">
-     <button @click=goproduct1()>
+     <button @click= goproduct5()>
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
 </div>

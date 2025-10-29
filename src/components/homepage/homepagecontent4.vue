@@ -1,38 +1,45 @@
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
+const router = useRouter()
 
 
+function goproduct4() {
+    router.push("/products-service/products-4")
+}
 
-<script></script>
+</script>
 
 
 <template>
     <div class="homepagecontent4">
         <img src="../../assets/Homepage-assets/bg-content4.png" alt="">
-        
-            <div data-aos="fade-up" data-aos-delay="700">
-                <button>
+
+        <div data-aos="fade-up" data-aos-delay="700">
+            <button @click = goproduct4() >
                 <span>ອ່ານເພີ່ມເຕີ່ມ</span>
             </button>
-            </div>
+        </div>
     </div>
-  
+
 </template>
 
 
 <style scoped>
-.homepagecontent4{
+.homepagecontent4 {
     width: 100%;
     height: 1000px;
-    
+
 
 }
 
-.homepagecontent4 img{
+.homepagecontent4 img {
     width: 100%;
     height: 1000px;
     position: absolute;
     z-index: -1;
 }
-.homepagecontent4 button{
+
+.homepagecontent4 button {
     margin-top: 700px;
     margin-left: 650px;
 }

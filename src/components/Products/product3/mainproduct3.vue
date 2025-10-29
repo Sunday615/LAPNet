@@ -14,13 +14,17 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
         <img id="navigator-img" src="../../../assets/Productassets/navigatorcontent-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
+                </div>
             </div>
             <div class="navigatorlink">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
-                            class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
-                        style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
-                    </span> ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
+                    <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                                class="fa-solid fa-chevron-right"></i></span> ຜະລິດຕະພັນ ແລະ ການບໍລິການ <span
+                            style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
+                        </span> ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                </div>
             </div>
         </div>
     </div>
@@ -46,37 +50,47 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
                 </div>
             </div>
             <div class="rightcontentpage1">
-                <img id="topbg"
-                    src="../../../assets/Productassets/product3/alexandros-giannakakis-Pl9feRmi3qE-unsplash.jpg" alt="">
-                <img id="atmmachine" src="../../../assets/Productassets/product3/IMG_7174.PNG" alt="">
+                <div data-aos-duration="1400" data-aos="fade-left">
+                    <img id="topbg"
+                        src="../../../assets/Productassets/product3/alexandros-giannakakis-Pl9feRmi3qE-unsplash.jpg"
+                        alt="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <img id="atmmachine" src="../../../assets/Productassets/product3/IMG_7174.PNG" alt="">
+                </div>
             </div>
         </div>
     </div>
     <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product2/product2detailbg.png" alt="">
         <div class="headerpage2-box1">
-            <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
-            <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
-            <p>ຫຼຸດຕົ້ນທຶນທາງດ້ານບຸກຂະລາກອນທີ່ໃຫ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານ Counter ຫຼື ປ່ອງບໍລິການຂອງທະນາຄານ
-                ໃຫ້ລູກຄ້າ<br>ຫັນມານຳໃຊ້ຕູ້ ATM ໃນການເຮັດທຸລະກຳ ແລະ ຍັງສາມາດເພີ່ມຈຳນວນທຸລະກຳການໂອນ ເພາະສາມາດໂອນຢູ່ຕູ້ ATM
-                ຂອງທະນາຄານ<br>ໃດກໍ່ໄດ້ທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet.
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
+                <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
+                <p>ຫຼຸດຕົ້ນທຶນທາງດ້ານບຸກຂະລາກອນທີ່ໃຫ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານ Counter ຫຼື ປ່ອງບໍລິການຂອງທະນາຄານ
+                    ໃຫ້ລູກຄ້າ<br>ຫັນມານຳໃຊ້ຕູ້ ATM ໃນການເຮັດທຸລະກຳ ແລະ ຍັງສາມາດເພີ່ມຈຳນວນທຸລະກຳການໂອນ ເພາະສາມາດໂອນຢູ່ຕູ້
+                    ATM
+                    ຂອງທະນາຄານ<br>ໃດກໍ່ໄດ້ທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet.
 
-            </p>
+                </p>
+            </div>
         </div>
         <div class="headerpage2-box1">
+            <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
+                <p>ເປັນການອຳນວຍຄວາມສະດວກ ແລະ ປະຢັດເວລາ
+                    ໂດຍລູກຄ້າບໍ່ຈໍາເປັນຕ້ອງລໍຖ້າການໃຊ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານ<br>
+                    counter ຫຼື ປ່ອງບໍລິການຂອງທະນາຄານ; ລູກຄ້າສາມາດເຮັດທຸລະກຳໂອນເງິນຂ້າມທະນາຄານໄດ້ດ້ວຍຕົນເອງ
+                    ດ້ວຍການໂອນເງິນ<br>ທີ່ຕູ້ ATM ຂອງທະນາຄານສະມາຊິກ ຊຶ່ງປັດຈຸບັນມີ 13 ທະນາຄານທີ່ສາມາດໃຫ້ບໍລິການໄດ້.
 
-            <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
-            <p>ເປັນການອຳນວຍຄວາມສະດວກ ແລະ ປະຢັດເວລາ ໂດຍລູກຄ້າບໍ່ຈໍາເປັນຕ້ອງລໍຖ້າການໃຊ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານ<br>
-                counter ຫຼື ປ່ອງບໍລິການຂອງທະນາຄານ; ລູກຄ້າສາມາດເຮັດທຸລະກຳໂອນເງິນຂ້າມທະນາຄານໄດ້ດ້ວຍຕົນເອງ
-                ດ້ວຍການໂອນເງິນ<br>ທີ່ຕູ້ ATM ຂອງທະນາຄານສະມາຊິກ ຊຶ່ງປັດຈຸບັນມີ 13 ທະນາຄານທີ່ສາມາດໃຫ້ບໍລິການໄດ້.
-
-            </p>
+                </p>
+            </div>
         </div>
 
     </div>
     <div class="condition">
         <div class="cardswiper">
-                <infinitescrolling></infinitescrolling>
+            <infinitescrolling></infinitescrolling>
         </div>
         <div class="titlecondition">
             <h1>ເງື່ອນໄຂການບໍລິການ</h1>
@@ -88,8 +102,10 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
                 </span></p>
 
             <div class="btnproduct">
-                <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                    ການບໍລິການ</button>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                        ການບໍລິການ</button>
+                </div>
             </div>
         </div>
 
@@ -104,41 +120,47 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
     <div class="memberlapnet">
 
     </div>
-<ft></ft>
+    <ft></ft>
 
 </template>
 
 
 
 <style scoped>
-.menberlapnet{
+.menberlapnet {
     width: 100%;
     height: 900px;
     background-color: navy;
 }
-.step{
+
+.step {
     width: 100%;
     height: 1500px;
     background-color: #514bff;
 }
-.tablefee img{
+
+.tablefee img {
     width: 100%;
 }
-.tablefee{
+
+.tablefee {
     width: 100%;
     height: 1400px;
-   
+
     overflow: hidden;
 }
-.feeforservice img{
+
+.feeforservice img {
     width: 100%;
     height: 100%;
 }
-.feeforservice{
+
+.feeforservice {
     width: 100%;
     height: 850px;
- 
+
 }
+
 .titlecondition h1 {
     font-size: 70px;
     font-family: notosanlao-bold;
@@ -171,12 +193,12 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 }
 
 .condition {
-   
+
     width: 100%;
     display: flex;
     margin-top: 20px;
     height: 800px;
-    
+
 
 }
 
