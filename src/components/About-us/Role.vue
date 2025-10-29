@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import navbartemplete from '../Navbar-footer/navbartemplete.vue';
 import ft from '../Navbar-footer/ft.vue';
+import typing from '../Typingfunction/typing.vue';
 
 
 </script>
@@ -13,13 +14,18 @@ import ft from '../Navbar-footer/ft.vue';
         <img id="navigator-img" src="../../assets/Vision-bg/navigatormission-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ພາລະບົດບາດ</p>
+                    <div data-aos="zoom-in-down" data-aos-duration="1000">
+                         <p>ພາລະບົດບາດ</p>
+                    </div>
+               
             </div>
             <div class="navigatorlink">
+                  <div data-aos="zoom-out-up" data-aos-duration="1000">
                 <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
                             class="fa-solid fa-chevron-right"></i></span> ກ່ຽວກັບພວກເຮົາ <span
                         style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
                     </span> ພາລະບົດບາດ</p>
+                    </div>
             </div>
         </div>
     </div>
@@ -46,14 +52,11 @@ import ft from '../Navbar-footer/ft.vue';
                 </div>
                 <div class="productlist">
                     <ul>
-                        <li>1. ກວດຍອດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</li>
-                        <li>2. ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</li>
-                        <li>3. ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM ໃນຮູບ ແບບການໂອນ ບັດ ຫາ ເລກໜ້າບັດ</li>
-                        <li>4. ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື ໃນຮູບແບບໂອນຈາກບັນຊີ - ບັນຊີ</li>
-                        <li>5. ຊຳລະຂ້າມທະນາຄານ ຜ່ານ LAPNet QR Pay</li>
-                        <li>6. ຊຳລະຂ້າມແດນຜ່ານ QR</li>
-
+                                    <typing></typing>
+                    
+                   
                     </ul>
+             
                 </div>
             </div>
         </div>

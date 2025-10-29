@@ -14,15 +14,16 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
         <img id="navigator-img" src="../../assets/joinusassets/navigatorjoinus.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                 <div data-aos="zoom-in-down" data-aos-duration="1000">
-                <p>ຮ່ວມງານກັບພວກເຮົາ</p>
-            </div>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ຮ່ວມງານກັບພວກເຮົາ</p>
+                </div>
             </div>
             <div class="navigatorlink">
-                   <div data-aos="zoom-out-up" data-aos-duration="1000">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
-                            class="fa-solid fa-chevron-right"></i></span> ຮ່ວມງານກັບພວກເຮົາ
-                </p></div>
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
+                    <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                                class="fa-solid fa-chevron-right"></i></span> ຮ່ວມງານກັບພວກເຮົາ
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -34,29 +35,38 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
                 <p>LAPNet</p>
             </div>
             <div class="header">
-                <h1> WHY US?</h1>
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <h1> WHY US?</h1>
+                </div>
             </div>
             <div class="title">
-                <p>
-                    ພັດທະນາລະບົບການຊໍາລະໃຫ້ມີຄວາມຫຼາກຫຼາຍ, ທັນສະໄໝ, ຕອບຮັບໄດ້ທຸກຊ່ອງທາງການຊໍາລະທີ່ເກີດຂື້ນ,
-                    ເຕົ້າໂຮມເອົາບັນດາທະນາຄານທຸລະກິດ, ສະຖາບັນການເງິນ ແລະ ບໍລິສັດ Fintech ທີ່ເປັນຜູ້ໃຫ້ບໍລິການຊໍາລະ
-                    ໃຫ້ເຂົ້າມາເປັນສະມາຊີກຂອງບໍລິສັດ ເພື່ອພ້ອມກັນໃຫ້ບໍລິການລະບົບການຊໍາລະແກ່ສັງຄົມ,
-                    ຫັນເອົາການເຊື່ອມຕໍ່ສາກົນທີ່ມີລັກສະນະກະແຈກກະຈາຍລວມສູນເຂົ້າມາເຊື່ອມຕໍ່ເປັນຮູບແບບລະບົບປະຕູດຽວເພື່ອຫຼຸດຜ່ອນຕົ້ນທືນລວມຂອງທົ່ວລະບົບ,
-                    ເສີມຂະຫຍາຍຄວາມຮູ້-ເຂົ້າໃຈໃຫ້ແກ່ມວນຊົນໄດ້ຮັບຮູ້ເຖິງຄວາມສຳຄັນ ແລະ
-                    ປະໂຫຍກຂອງການນຳໃຊ້ລະບົບການຊໍາລະເອເລັກໂຕຣນິກຢ່າງຖ່ອງແທ້
-                    ເພື່ອເຮັດໃຫ້ມວນຊົນໄດ້ນຳໃຊ້ລະບົບການຊໍາລະຢ່າງຖືກຕ້ອງ ແລະ ປອດໄພ ເປັນການເສີມສ້າງຄວາມໝັ້ນໃຈໃຫ້ແກ່ມວນຊົນ.
-                </p>
-            </div>
-            <div class="contact">
-                <div class="facebook">
-                    <i class="fa-brands fa-facebook"></i>
-                    <p>Lao National Payment Network</p>
+                <div data-aos="fade-up" data-aos-duration="1200">
+
+                    <p>
+                        ພັດທະນາລະບົບການຊໍາລະໃຫ້ມີຄວາມຫຼາກຫຼາຍ, ທັນສະໄໝ, ຕອບຮັບໄດ້ທຸກຊ່ອງທາງການຊໍາລະທີ່ເກີດຂື້ນ,
+                        ເຕົ້າໂຮມເອົາບັນດາທະນາຄານທຸລະກິດ, ສະຖາບັນການເງິນ ແລະ ບໍລິສັດ Fintech ທີ່ເປັນຜູ້ໃຫ້ບໍລິການຊໍາລະ
+                        ໃຫ້ເຂົ້າມາເປັນສະມາຊີກຂອງບໍລິສັດ ເພື່ອພ້ອມກັນໃຫ້ບໍລິການລະບົບການຊໍາລະແກ່ສັງຄົມ,
+                        ຫັນເອົາການເຊື່ອມຕໍ່ສາກົນທີ່ມີລັກສະນະກະແຈກກະຈາຍລວມສູນເຂົ້າມາເຊື່ອມຕໍ່ເປັນຮູບແບບລະບົບປະຕູດຽວເພື່ອຫຼຸດຜ່ອນຕົ້ນທືນລວມຂອງທົ່ວລະບົບ,
+                        ເສີມຂະຫຍາຍຄວາມຮູ້-ເຂົ້າໃຈໃຫ້ແກ່ມວນຊົນໄດ້ຮັບຮູ້ເຖິງຄວາມສຳຄັນ ແລະ
+                        ປະໂຫຍກຂອງການນຳໃຊ້ລະບົບການຊໍາລະເອເລັກໂຕຣນິກຢ່າງຖ່ອງແທ້
+                        ເພື່ອເຮັດໃຫ້ມວນຊົນໄດ້ນຳໃຊ້ລະບົບການຊໍາລະຢ່າງຖືກຕ້ອງ ແລະ ປອດໄພ
+                        ເປັນການເສີມສ້າງຄວາມໝັ້ນໃຈໃຫ້ແກ່ມວນຊົນ.
+                    </p>
                 </div>
-                <div class="website">
-                    <i class="fa-solid fa-earth-americas"></i>
-                    <a href="https://www.lapnet.com.la">
-                        <p>www.lapnet.com.la</p>
-                    </a>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1200">
+                <div class="contact">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Lao National Payment Network</p>
+                    </div>
+                    <div class="website">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <a href="https://www.lapnet.com.la">
+                            <p>www.lapnet.com.la</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,37 +79,41 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
                 </div>
                 <div class="flexdisplaypreview">
                     <div class="headerswiper">
-
-                        <h1>LIFT AT</h1>
-                        <p>LAPNet</p>
+<div data-aos="fade-right" data-aos-duration="200"> <h1>LIFT AT</h1></div>
+<div data-aos="fade-right" data-aos-duration="400">  <p>LAPNet</p></div>
+                       
+                       
                     </div>
                     <div class="swiperdotpreview">
-                            <imageswiper></imageswiper>
-                    </div>  
+                        <imageswiper></imageswiper>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
- <div class="position">
-    <div class="headerposition">
-        <h1> POSITION</h1>
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"> 
+
+    <div class="position">
+        <div class="headerposition">
+            <h1> POSITION</h1>
+        </div>
+        <div class="dropdowncontent">
+            <position-dropdown></position-dropdown>
+            <department></department>
+            <levels></levels>
+        </div>
     </div>
-    <div class="dropdowncontent">
-        <position-dropdown></position-dropdown>
-        <department></department>
-        <levels></levels>
     </div>
- </div>
- <ft></ft>
+    <ft></ft>
 
 </template>
 
 
 <style scoped>
-.dropdowncontent{
+.dropdowncontent {
     width: 80%;
-   
+
     height: 200px;
     margin-top: 70px;
     display: flex;
@@ -107,18 +121,20 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
     align-items: center;
     margin: 0 auto;
 }
-.headerposition h1{
+
+.headerposition h1 {
     font-size: 90px;
     font-weight: bold;
     color: #2855bf;
-  background-image: linear-gradient(45deg, #2855bf , #416bd0 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
+    background-image: linear-gradient(45deg, #2855bf, #416bd0 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
-.headerposition{
-    
+
+.headerposition {
+
     width: 100%;
     height: 210px;
 
@@ -126,18 +142,20 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
     justify-content: center;
     align-items: center;
 }
-.position{
+
+.position {
     width: 100%;
     height: 1000px;
     margin-top: 1000px;
-    
-  
+
+
 }
+
 .positioncontainer {
     width: 100%;
     height: 900px;
 
-   
+
 
 }
 
@@ -152,7 +170,7 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
     position: relative;
     left: 262px;
     top: -120px;
- 
+
 }
 
 .headerswiper p {
@@ -196,7 +214,7 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
     align-items: center;
     width: 70%;
     height: 120px;
- 
+
     display: flex;
 }
 
@@ -204,7 +222,7 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
     width: 45%;
     height: 800px;
 
- 
+
 }
 
 #swiperbackground {
@@ -217,7 +235,7 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
 .swipercontainer {
     width: 100%;
     height: 930px;
-  
+
     margin-top: 130px;
 }
 
