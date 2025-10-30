@@ -29,11 +29,11 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/5.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 14 March 2024</p>
                 </span>
                 <span class="padding-icon">
                     <p><i class="fa-solid fa-bookmark"></i> Contract</p>
@@ -48,23 +48,26 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR Code ລະຫວ່າງ ສປປ ລາວ
+                            ແລະ ປະເທດໄທ ໂດຍການຮ່ວມມືກັນລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ແລະ
+                            ບໍລິສັດ National ITMX (ITMX).</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>     ໃນຕອນເຊົ້າຂອງວັນທີ 14 ມີນາ 2024 ຜ່ານມາ ທີ່ສຳນັກງານ ຂອງບໍລິສັດ National ITMX ແຂວງ ນົນທະບູລີ
+                    ປະເທດໄທ ໄດ້ມີການຈັດພິທີລົງນາມ ເຊັນສັນຍາ ວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR Code
+                    ລະຫວ່າງ ສປປ ລາວ ແລະ ປະເທດໄທ ລົງນາມໂດຍ ທ່ານ ສີສະໝອນ ສຣິດທິຣາດ ຜູ້ອຳນວຍການ ບໍລິສັດ LAPNet ແລະ ທ່ານ ນາງ
+                    ວັນນາ ນົບອາພອນ ຜູ້ອຳນວຍການ ບໍລິສັດ National ITMX ແລະ ໃຫ້ກຽດເປັນສັກຂີພະຍານໃນພິທີເຊັນສັນຍາດັ່ງກ່າວໂດຍ
+                    ທ່ານ ສີສະອາດ ນຶມອາສາ ໃນນາມສະມາຊິກ ສະພາບໍລິຫານ ແລັບເນັດ, ທ່ານ ກົງສັກ ສຸພອນສີ ໃນນາມຕາງໜ້າສະພາບໍລິຫານ
+                    ທັງເປັນຕາງໜ້າຜູ້ຖືຮຸ້ນ ຂອງບໍລິສັດ LAPNet; ທ່ານ ກອບສັກ ດວງດີ ປະທານສະພາບໍລິຫານບໍລິສັດ National ITMX,
+                    ຕາງຫນ້າທະນາຄານຜູ້ໃຫ້ບໍລິການ (Service Bank) ພ້ອມດ້ວຍຄະນະເຂົ້າຮ່ວມໃນພິທີ.
                 </p>
-                <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
-                </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
-                </p>
+
+
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/5.jpg" alt="">
             </div>
             <div class="descriptionline2">
 
@@ -465,6 +468,7 @@ import ft from '../../Navbar-footer/ft.vue';
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
@@ -490,6 +494,7 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     width: 100%;
     height: 100%;
+ 
 
 }
 
@@ -512,7 +517,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 220px;
+    height: 300px;
     background-color: #433bff;
 }
 
@@ -563,7 +568,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 2400px;
 
 }
 
@@ -573,7 +578,6 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
 
 
 }

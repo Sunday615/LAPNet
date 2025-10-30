@@ -13,29 +13,35 @@ import ft from '../Navbar-footer/ft.vue';
         <img id="navigator-img" src="../../assets/Vision-bg/navigatormission-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ໂຄງຮ່າງການຈັດຕັ້ງ</p>
+                <div data-aos="zoom-in-down" data-aos-duration="1000">
+                    <p>ໂຄງຮ່າງການຈັດຕັ້ງ</p>
+                </div>
             </div>
             <div class="navigatorlink">
-                <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
-                            class="fa-solid fa-chevron-right"></i></span> ກ່ຽວກັບພວກເຮົາ <span
-                        style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
-                    </span> ໂຄງຮ່າງການຈັດຕັ້ງ </p>
+                <div data-aos="zoom-out-up" data-aos-duration="1000">
+                    <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
+                                class="fa-solid fa-chevron-right"></i></span> ກ່ຽວກັບພວກເຮົາ <span
+                            style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
+                        </span> ໂຄງຮ່າງການຈັດຕັ້ງ </p>
+                </div>
             </div>
         </div>
     </div>
     <div class="companystructure">
-        <img src="../../assets/Aboutusasset/companystructure-2.png" alt="">
+          <div data-aos="fade-up" data-aos-duration="1200">
+        <img src="../../assets/Aboutusasset/companystructure-2.png" alt=""></div>
     </div>
     <ft></ft>
 </template>
 
 
 <style scoped>
-.companystructure{
+.companystructure {
     width: 100%;
     height: 1100px;
-    border: 1px solid red;
+
 }
+
 .navigatorcontent {
     width: 100%;
     height: 300px;

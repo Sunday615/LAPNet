@@ -4,6 +4,7 @@ import ft from '../Navbar-footer/ft.vue';
 
 
 
+
 const sendEmail = () => {
     const email = "info@laonet.com.la";
     const subject = encodeURIComponent("ສອບຖາມຂໍ້ມູນເພີ່ມເຕີ່ມ");
@@ -29,84 +30,94 @@ const openMap = () => {
 <template>
     <navbartemplete></navbartemplete>
     <div class="navigatorcontact">
+
         <img src="../../assets/Contactassets/contactnav.png" alt="">
     </div>
+
     <div class="containercontact">
         <div class="boxcontainer">
-            <div class="leftboxcontainer">
-                <div class="logo-title">
-                    <img src="../../assets/Logo-lapnet/logolapnet.PNG" alt="">
-                    <p>Contact Us</p>
-                </div>
-                <div class="headercontact">
-                    <h1>Anywhere Anytime <br> Any Payment Chanel</h1>
-                </div>
-                <div class="infoboxcontainer">
-
-                    <div class="box1" @click="openMap" style="cursor: pointer;"> 
-                        <div class="flexboxcontainer">
-                            <div class="icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div class="infotitle">
-                                <h2>Our Office Address</h2>
-                                <p>XJHH+FFM, Vientiane</p>
-                                <p>LAOS</p>
-                            </div>
-                        </div>
-
+            <div data-aos="fade-right" data-aos-duration="1300">
+                <div class="leftboxcontainer">
+                    <div class="logo-title">
+                        <img src="../../assets/Logo-lapnet/logolapnet.PNG" alt="">
+                        <p>Contact Us</p>
                     </div>
-
-
-                    <div class="box2" style="cursor: pointer; " >
-                        <div class="flexboxcontainer">
-                            <div class="icon">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div class="infotitle">
-                                <h2>Call Us</h2>
-                                <p>030 568 7610</p>
-                                <p>021 417 915</p>
-                            </div>
-                        </div>
-
+                    <div class="headercontact">
+                 
+                        <h1>Anywhere Anytime <br> Any Payment Chanel</h1>
                     </div>
-
-                    <div class="box3" style="cursor:pointer;" @click="sendEmail">
-                        <div class="flexboxcontainer">
-                            <div id="emailicon" class="icon">
-                                <i class="fa-solid fa-inbox"></i>
-                            </div>
-                            <div class="infotitle">
-                                <h2>Our Email</h2>
-                                <p>info@lapnet.com.la</p>
+                    <div class="infoboxcontainer">
+                        <div data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500" data-aos-once="true">
+                            <div class="box1" @click="openMap" style="cursor: pointer;">
+                                <div class="flexboxcontainer">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="infotitle">
+                                        <h2>Our Office Address</h2>
+                                        <p>XJHH+FFM, Vientiane</p>
+                                        <p>LAOS</p>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
 
+                        <div data-aos="fade-down" data-aos-duration="1300" data-aos-delay="500" data-aos-once="true">
+                            <div class="box2" style="cursor: pointer; ">
+                                <div class="flexboxcontainer">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="infotitle">
+                                        <h2>Call Us</h2>
+                                        <p>030 568 7610</p>
+                                        <p>021 417 915</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div data-aos="fade-down" data-aos-duration="1300" data-aos-delay="500" data-aos-once="true">
+                            <div class="box3" style="cursor:pointer;" @click="sendEmail">
+                                <div class="flexboxcontainer">
+                                    <div id="emailicon" class="icon">
+                                        <i class="fa-solid fa-inbox"></i>
+                                    </div>
+                                    <div class="infotitle">
+                                        <h2>Our Email</h2>
+                                        <p>info@lapnet.com.la</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
 
                     </div>
-
-
                 </div>
             </div>
-            <div class="rightboxcontainer">
-                <div class="boxsendemail">
-                    <div class="titlesendmail">
-                        <h1>Make an Appointment</h1>
-                        <p>feel free to contact with us, we don't spam your email</p>
-                    </div>
-                    <div class="boxinputname">
-                        <input type="text" placeholder="Full Name *">
-                    </div>
-                    <div class="boxinputemail">
-                        <input type="text" placeholder="Email Here *">
-                    </div>
-                    <div class="boxinputmessage">
-                        <Textarea placeholder="Your Message *"></Textarea>
-                    </div>
-                    <div class="btnsubmit">
-                        <button>Submit Message</button>
+            <div data-aos="fade-left" data-aos-duration="1300">
+                <div class="rightboxcontainer">
+                    <div class="boxsendemail">
+                        <div class="titlesendmail">
+                            <h1>Make an Appointment</h1>
+                            <p>feel free to contact with us, we don't spam your email</p>
+                        </div>
+                        <div class="boxinputname">
+                            <input type="text" placeholder="Full Name *">
+                        </div>
+                        <div class="boxinputemail">
+                            <input type="text" placeholder="Email Here *">
+                        </div>
+                        <div class="boxinputmessage">
+                            <Textarea placeholder="Your Message *"></Textarea>
+                        </div>
+                        <div class="btnsubmit">
+                            <button>Submit Message</button>
+                        </div>
                     </div>
                 </div>
             </div>

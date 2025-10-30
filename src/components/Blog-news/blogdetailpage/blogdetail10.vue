@@ -29,17 +29,17 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/10/1.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 21 August 2023</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-bookmark"></i> Contract</p>
+                    <p><i class="fa-solid fa-bookmark"></i> Meetings</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 1 Year ago</p>
+                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 2 Year ago</p>
                 </span>
             </div>
             <div class="headerblogdetail">
@@ -48,24 +48,35 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເມັ້ນ ເນັດເວີກ ຈຳກັດ ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່.</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>    ໃນຕອນບ່າຍຂອງ ວັນທີ 21 ສິງຫາ 2023, ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ໄດ້ມີການຈັດກອງປະຊຸມຜູ້ຖືຮຸ້ນສະໄໝວິສາມັນ ປະຈຳປີ 2023 ເພື່ອຮັບຮອງຕາງຫນ້າຜູ້ຖືຮຸ້ນຄົນໃຫມ່ ໂດຍປະຕິບັດຕາມການຕົກລົງຂອງຂາຮຸ້ນ ທຫລ ທີ່ມີການປັບປຸງຊັບຊ້ອນຫນ້າທີ່ໃຫມ່ ພາຍໃນ ທຫລ. ລວມທັງການຮັບຮອງສະມາຊິກສະພາບໍລິຫານຄືນ ທີ່ຄົບວາລະ 2 ປີ, ຫລັງຈາກນັ້ນກໍ່ໄດ້ເລືອກຕັ້ງປະທານ ແລະ ຮອງປະທານສະພາຊຸດໃຫມ່. ພ້ອມດຽວກັນນັ້ນກໍ່ໄດ້ມີພິທີຮັບຮອງ ຜູ້ອຳນວຍການ ຜູ້ໃຫມ່ ແທນຜູ້ເກົ່າທີ່ໄດ້ໄປຮັບຫນ້າທີ່ໃຫມ່ ຕາມການຕົກລົງພາຍໃນຂອງເບື້ອງຂາຮຸ້ນທີ່ກ່ຽວຂ້ອງ.
                 </p>
-                <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
+                <p>    ພາຍຫລັງ ສຳເລັດກອງປະຊຸມ ກໍ່ໄດ້ມີພິທີ ມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ລະຫວ່າງ ທ່ານ ສຸລິສັກ ທໍານຸວົງ ປະທານສະພາບໍລິຫານ ຜູ້ເກົ່າ ແລະ ທ່ານ ມະໂນລິດ ຊຸມພົນພັກດີ ປະທານສະພາບໍລິຫານ ຜູ້ໃຫມ່ ແລະ ພິທີ ມອບ-ຮັບ ຕຳແໜ່ງ ຜູ້ອຳນວຍການ ຂອງບໍລິສັດ ໂດຍມີການສັບປ່ຽນ ທ່ານ ຫົງຄຳ ເພັດດາວົງ ຜູ້ອຳນວຍການ ຜູ້ເກົ່າ ທີ່ໄດ້ໄປຮັບໜ້າທີ່ໃໝ່ ຢູ່ ທະນາຄານ ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ ແລະ ປ່ຽນແທນໂດຍ ທ່ານ ສີສະໝອນ ສຣິດທິຣາດ ໃຫ້ມາຮັບຕຳແໜ່ງເປັນຜູ້ອຳນວຍການ ຜູ້ໃໝ່.
                 </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
-                </p>
+              
+
+
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/10/1.jpg" alt="">
             </div>
+            <div class="imageinfo">
+                <img style="object-fit: cover;" src="../../../../public/images/10/3.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/10/4.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/10/5.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/10/6.jpg" alt="">
+            </div>
+          
             <div class="descriptionline2">
 
 
@@ -150,7 +161,7 @@ import ft from '../../Navbar-footer/ft.vue';
                 </div>
                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../../assets/newsassets/4.png" alt="">
+                        <img src="../../../assets/newsassets/5.png" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ</h2>
@@ -162,7 +173,7 @@ import ft from '../../Navbar-footer/ft.vue';
                 </div>
                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../../assets/newsassets/5.jpg" alt="">
+                        <img src="../../../assets/newsassets/6.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ
@@ -458,13 +469,14 @@ import ft from '../../Navbar-footer/ft.vue';
 .imageinfo {
     width: 97%;
     height: 500px;
-
+    margin-bottom: 20px;
 }
 
 .descriptionline1 P {
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
@@ -490,6 +502,7 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     width: 100%;
     height: 100%;
+ 
 
 }
 
@@ -512,7 +525,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 220px;
+    height: 210px;
     background-color: #433bff;
 }
 
@@ -543,7 +556,7 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-fit: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     border: 1px solid rgba(0, 0, 0, 0.488);
@@ -563,7 +576,9 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 4500px;
+    
+
 
 }
 
@@ -573,7 +588,6 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
 
 
 }

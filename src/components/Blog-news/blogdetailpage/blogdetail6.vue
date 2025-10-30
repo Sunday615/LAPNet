@@ -29,14 +29,14 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/6.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 26 September 2023</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-bookmark"></i> Contract</p>
+                    <p><i class="fa-solid fa-bookmark"></i> Meetings</p>
                 </span>
                 <span class="padding-icon">
                     <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 1 Year ago</p>
@@ -48,23 +48,20 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ.</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>    ໃນລະຫວ່າງວັນທີ 26-29 ກັນຍາ 2023 ທີ່ຜ່ານມາ, ທ່ານ ນາງ ນີວະສອນ ຮອງຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ພ້ອມດ້ວຍຄະນະຈາກບໍລິສັດ ໄດ້ເດີນທາງໄປແລກປ່ຽນບົດຮຽນຮ່ວມກັບບໍລິສັດ Network for Electronic Transfers Singapore PTE Ltd (NETS) ທີ່ປະເທດສິງກະໂປ.
                 </p>
-                <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
+                <p>    ໂດຍການໄປແລກປ່ຽນບົດຮຽນໃນຄັ້ງນີ້  ແມ່ນເພື່ອເປັນການແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນອີເລັກໂທຣນິກ ເພື່ອນຳມາເປັນບົດຮຽນໃຫ້ແກ່ບໍລິສັດ ໃນການພັດທະນາລະບົບການຊຳລະໃນອະນາຄົດ ໃຫ້ມີຄວາມສະດວກ ທັນສະໄຫມ ປອດໄພ ແລະ ຕົ້ນທຶນຕ່ຳ.
                 </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
-                </p>
+
+
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/6.jpg" alt="">
             </div>
             <div class="descriptionline2">
 
@@ -451,7 +448,7 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 
 }
 
@@ -465,6 +462,7 @@ import ft from '../../Navbar-footer/ft.vue';
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
@@ -490,6 +488,7 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     width: 100%;
     height: 100%;
+ 
 
 }
 
@@ -512,7 +511,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 220px;
+    height: 210px;
     background-color: #433bff;
 }
 
@@ -543,7 +542,7 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-fit: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     border: 1px solid rgba(0, 0, 0, 0.488);
@@ -563,7 +562,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 2400px;
 
 }
 
@@ -573,7 +572,6 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
 
 
 }

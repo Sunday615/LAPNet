@@ -29,17 +29,17 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/8/1.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 30 August 2023</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-bookmark"></i> Contract</p>
+                    <p><i class="fa-solid fa-bookmark"></i> Meetings</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 1 Year ago</p>
+                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 2 Year ago</p>
                 </span>
             </div>
             <div class="headerblogdetail">
@@ -48,24 +48,37 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ກອງປະຊຸມ ທາບທາມການນຳສະເຫນີ ຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ.</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>    ໃນຕອນເຊົ້າຂອງ ວັນທີ 30 ສິງຫາ 2023, ເວລາ 09:30 – 12:00 ໂມງ.
                 </p>
-                <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
+                <p>    ໄດ້ມີການຈັດກອງປະຊຸມເພື່ອຮັບຟັງ ແລະ ທາບທາມການນຳສະເຫນີ ຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ ໂດຍມີ 02 ທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະຄື: ທະນາຄານ ຮ່ວມທຸລະກິດ ລາວ-ຫວຽດ ຈຳກັດ (LVB) ແລະ ທະນາຄານ ຫວຽດຕິນ ລາວ ຈຳກັດ (VTB).
                 </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
+                <p>    ກອງປະຊຸມໄດ້ຈັດຂຶ້ນພາຍໃຕ້ການເປັນປະທານຂອງ ທ່ານ ມະໂນລິດ ຊຸມພົນພັກດີ ຮອງຫົວໜ້າກົມຄຸ້ມຄອງລະບົບຊໍາລະສະສາງ, ປະທານສະພາບໍລິຫານ ບໍລິສັດ LAPNet ພ້ອມດ້ວຍຄະນະຈາກທະນາຄານທີ່ມີຄວາມພ້ອມໃນການເຂົ້າຮ່ວມໂຄງການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ 7 ທະນາຄານຄື: BCEL, LDB, APB, JDB, BIC, PSV ແລະ STB.
                 </p>
+              
+
+
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/8/2.jpg" alt="">
             </div>
+            <div class="imageinfo">
+                <img style="object-fit: cover;" src="../../../../public/images/8/4.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/8/5.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/8/6.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/8/7.jpg" alt="">
+            </div>
+          
             <div class="descriptionline2">
 
 
@@ -150,7 +163,7 @@ import ft from '../../Navbar-footer/ft.vue';
                 </div>
                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../../assets/newsassets/4.png" alt="">
+                        <img src="../../../assets/newsassets/5.png" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ</h2>
@@ -162,7 +175,7 @@ import ft from '../../Navbar-footer/ft.vue';
                 </div>
                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../../assets/newsassets/5.jpg" alt="">
+                        <img src="../../../assets/newsassets/6.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ
@@ -458,13 +471,14 @@ import ft from '../../Navbar-footer/ft.vue';
 .imageinfo {
     width: 97%;
     height: 500px;
-
+    margin-bottom: 20px;
 }
 
 .descriptionline1 P {
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
@@ -490,6 +504,7 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     width: 100%;
     height: 100%;
+ 
 
 }
 
@@ -512,7 +527,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 220px;
+    height: 210px;
     background-color: #433bff;
 }
 
@@ -543,7 +558,7 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-fit: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     border: 1px solid rgba(0, 0, 0, 0.488);
@@ -563,7 +578,9 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 4500px;
+    
+
 
 }
 
@@ -573,7 +590,6 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
 
 
 }

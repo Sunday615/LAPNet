@@ -23,17 +23,16 @@ import ft from '../../Navbar-footer/ft.vue';
         </div>
     </div>
     <div class="backbtn">
-        <router-link to="/newsgridpage1"><button><i class="fa-solid fa-angle-left" style=""></i>
-                ກັບຄືນ</button></router-link>
+        <router-link to="/newsgridpage1"><button><i class="fa-solid fa-angle-left" style=""></i> ກັບຄືນ</button></router-link>
     </div>
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/3.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 15 May 2024</p>
                 </span>
                 <span class="padding-icon">
                     <p><i class="fa-solid fa-bookmark"></i> Contract</p>
@@ -48,26 +47,23 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ແຈ້ງເຊີນປະມູນ ອຸປະກອນ Hardware ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNet.</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>     ອຸປະກອນ Hardware ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNet, ຖ້າຫາກນິຕິບຸກຄົນໃດສົນໃຈ ສາມາດປະກອບເອກະສານຕາມເງື່ອນໄຂທາງດ້ານລຸ່ມ ສົ່ງທີ່ບໍລິສັດ LAPNet
                 </p>
                 <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
+                         ຮັບຊອງປະມູນ 16- 30 ພຶດສະພາ 2024 ນີ້.
                 </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
-                </p>
+               
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/3.jpg" alt="">
             </div>
             <div class="descriptionline2">
-
+               
 
             </div>
             <div class="tag">
@@ -105,15 +101,15 @@ import ft from '../../Navbar-footer/ft.vue';
                         <p>Contract</p>
                         <p>(05)</p>
                     </div>
-                    <div class="shortbox">
+                     <div class="shortbox">
                         <p>Meetings</p>
                         <p>(01)</p>
                     </div>
-                    <div class="shortbox">
+                     <div class="shortbox">
                         <p>Grand Opening</p>
                         <p>(07)</p>
                     </div>
-                    <div class="shortbox">
+                     <div class="shortbox">
                         <p>Activity</p>
                         <p>(02)</p>
                     </div>
@@ -136,7 +132,7 @@ import ft from '../../Navbar-footer/ft.vue';
                     </div>
                 </div>
 
-                <div class="cardpostrecent">
+                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
                         <img src="../../../assets/newsassets/3.jpg" alt="">
                     </div>
@@ -148,7 +144,7 @@ import ft from '../../Navbar-footer/ft.vue';
                         </div>
                     </div>
                 </div>
-                <div class="cardpostrecent">
+                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
                         <img src="../../../assets/newsassets/4.png" alt="">
                     </div>
@@ -160,26 +156,24 @@ import ft from '../../Navbar-footer/ft.vue';
                         </div>
                     </div>
                 </div>
-                <div class="cardpostrecent">
+                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
                         <img src="../../../assets/newsassets/5.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
-                        <h2>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ
-                            ແລະ ປະເທດໄທ</h2>
+                        <h2>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ ແລະ ປະເທດໄທ</h2>
                         <div class="recenttimepost">
                             <i class="fa-solid fa-calendar"></i>
                             <p>14 March 2024</p>
                         </div>
                     </div>
                 </div>
-                <div class="cardpostrecent">
+                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
                         <img src="../../../assets/newsassets/6.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
-                        <h2>ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ
-                            ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ</h2>
+                        <h2>ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ</h2>
                         <div class="recenttimepost">
                             <i class="fa-solid fa-calendar"></i>
                             <p>26 September 2023</p>
@@ -195,44 +189,39 @@ import ft from '../../Navbar-footer/ft.vue';
 
 
 <style scoped>
-.recenttimepost i {
+.recenttimepost i{
     font-size: 19px;
     color: #433bff;
 }
-
-.recenttimepost {
+.recenttimepost{
     width: 50%;
     height: 30%;
 
     margin-top: 30px;
     display: flex;
     align-items: center;
-
+    
 }
-
-.titlerecentbox {
-
+.titlerecentbox{
+   
     width: 100%;
     height: 100%;
-
+  
     margin-left: 20px;
 }
-
-.titlerecentbox h2 {
+.titlerecentbox h2{
     font-size: 20px;
-    color: #040072;
+    color:#040072;
     font-family: notosanlao-bold;
 
-
+    
 }
-
-.imgrecentbox img {
+.imgrecentbox img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
 }
-
-.imgrecentbox {
+.imgrecentbox{
     width: 40%;
     height: 100%;
 
@@ -240,46 +229,40 @@ import ft from '../../Navbar-footer/ft.vue';
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-.cardpostrecent {
+.cardpostrecent{
     width: 90%;
     height: 150px;
     margin: 0 auto;
     display: flex;
 
     margin-bottom: 40px;
-
-
+    
+    
 }
-
-.postrecenttitle h4 {
+.postrecenttitle h4{
     font-size: 30px;
     font-family: notosanlao-bold;
     padding-top: 30px;
     padding-left: 40px;
     color: #040072;
 }
-
-.postrecenttitle {
+.postrecenttitle{
     width: 100%;
     height: 120px;
 
 }
-
-.shortbygroup {
+.shortbygroup{
     width: 80%;
     height: 500px;
     margin: 0 auto;
 
     margin-top: 30px;
 }
-
-.shortbox p {
+.shortbox p{
     font-size: 25px;
     color: #00000091;
 }
-
-.shortbox {
+.shortbox{
     cursor: pointer;
     width: 100%;
     height: 80px;
@@ -292,27 +275,23 @@ import ft from '../../Navbar-footer/ft.vue';
     padding-right: 30px;
     margin-bottom: 30px;
 }
-
-.titlegroupblog h4 {
+.titlegroupblog h4{
     font-size: 30px;
     font-family: notosanlao-bold;
     padding-top: 30px;
     padding-left: 40px;
     color: #040072;
 }
-
-.titlegroupblog {
+.titlegroupblog{
     width: 100%;
     height: 90px;
-
+  
 }
-
-.btnsubmit i {
+.btnsubmit i{
     font-size: 35px;
     color: white;
 }
-
-.btnsubmit {
+.btnsubmit{
     width: 110px;
     height: 100%;
     background-color: #433bff;
@@ -322,71 +301,61 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     border-bottom-right-radius: 20px;
 }
-
-.inputsearchblog input::placeholder {
+.inputsearchblog input::placeholder{
     padding-left: 30px;
     font-size: 20px;
 }
-
-.inputsearchblog input {
+.inputsearchblog input{
     width: 500px;
     height: 100%;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
     background-color: #fff;
 }
-
-.inputsearchblog {
+.inputsearchblog{
     width: 80%;
     margin: 0 auto;
     height: 80px;
     margin-top: 20px;
     display: flex;
 }
-
-.searchblog h4 {
+.searchblog h4{
     font-size: 30px;
     font-family: notosanlao-bold;
     padding-top: 30px;
     padding-left: 40px;
     color: #040072;
 }
-
-.searchblog {
+.searchblog{
     width: 100%;
     height: 35%;
 
 }
-
-.postrecent {
+.postrecent{
     width: 100%;
     height: 1150px;
     border-radius: 15px;
     background-color: #ebebeb;
     margin-top: 30px;
 }
-
-.groupblog {
+.groupblog{
     width: 100%;
     height: 600px;
     background-color: #ebebeb;
     margin-top: 25px;
     border-radius: 15px;
 }
-
-.searchbar {
+.searchbar{
     width: 100%;
     height: 240px;
     background-color: #ebebeb;
     border-radius: 15px;
 }
-
-.social div {
+.social div{
     font-size: 35px;
     color: #040072;
 }
-
-.tagbox2 {
+.tagbox2{
     width: 165px;
     height: 60px;
     border: 1px solid #939393b1;
@@ -395,8 +364,7 @@ import ft from '../../Navbar-footer/ft.vue';
     justify-content: center;
     border-radius: 30px;
 }
-
-.tagbox1 {
+.tagbox1{
     width: 165px;
     height: 60px;
     border: 1px solid #939393b1;
@@ -405,35 +373,31 @@ import ft from '../../Navbar-footer/ft.vue';
     justify-content: center;
     border-radius: 30px;
 }
-
-.social {
+.social{
     width: 50%;
     height: 100%;
-
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
 }
-
-.tagblog {
+.tagblog{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 50%;
     height: 100%;
-
+    
 }
-
-.tag {
+.tag{
     width: 97%;
     height: 160px;
     display: flex;
     border-top: 1px solid #6666666c;
-    border-bottom: 1px solid #6666666c;
+    border-bottom:1px solid #6666666c ;
 
 }
-
 .descriptionline2 p {
     font-size: 19px;
     padding-top: 40px;
@@ -458,20 +422,21 @@ import ft from '../../Navbar-footer/ft.vue';
 .imageinfo {
     width: 97%;
     height: 500px;
-
+  
 }
 
 .descriptionline1 P {
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
     width: 97%;
     height: 460px;
     padding-top: 40px;
-
+  
 }
 
 .titleheader h1 {
@@ -558,12 +523,12 @@ import ft from '../../Navbar-footer/ft.vue';
 .right-blog-container {
     width: 40%;
     height: auto;
-
+ 
 }
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 2400px;
 
 }
 
@@ -573,8 +538,7 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
-
+  
 
 }
 

@@ -29,17 +29,17 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/7/F 1 -01.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 25 December 2024</p>
+                    <p><i class="fa-solid fa-calendar"></i> 15 September 2023</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-bookmark"></i> Contract</p>
+                    <p><i class="fa-solid fa-bookmark"></i> Meetings</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 1 Year ago</p>
+                    <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 2 Year ago</p>
                 </span>
             </div>
             <div class="headerblogdetail">
@@ -48,23 +48,25 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ.</h1>
+                        <h1>ກອງປະຊຸມ ປຶກສາຫາລືຄວາມເປັນໄປໄດ້ ໃນການເກັບລາຍຮັບຈາກການຊໍາລະຄ່າໄຟຟ້າ ຜ່ານລະບົບສູນກາງ ການຊຳລະທຸລະກຳຍ່ອຍ (Retails Payment Operator) ຂອງ ບໍລິສັດ LAPNet.</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ
+                <p>    ໃນຕອນເຊົ້າຂອງ ວັນທີ 15 ກັນຍາ 2023, ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ (LAPNet) ໄດ້ ປະຊຸມ ຮ່ວມກັບ ບໍລິສັດ ລັດວິສາຫະກິດ ໄຟຟ້າລາວ ໂດຍກອງປະຊຸມໃນຄັ້ງນີ້ ແມ່ນເພື່ອປຶກສາຫາລືຄວາມເປັນໄປໄດ້ ໃນການເກັບລາຍຮັບຈາກການຊໍາລະຄ່າໄຟຟ້າ ໃຫ້ລັດວິສາຫະກິດ ໄຟຟ້າລາວ ຜ່ານລະບົບສູນກາງ ການຊຳລະທຸລະກຳຍ່ອຍ (Retails Payment Operator) ຂອງ ບໍລິສັດ LAPNet.  ເພື່ອເປັນການຫັນເອົາການເຊື່ອມຕໍ່ທີ່ມີລັກສະນະກະແຈກກະຈາຍໃນປະຈຸບັນມາເປັນແບບລວມສູນເຂົ້າເຊື່ອມຕໍ່ເປັນຮູບແບບລະບົບປະຕູດຽວ ໂດຍຈະຊ່ວຍຫຼຸດຜ່ອນຕົ້ນທຶນລວມຂອງການເຊື່ອມຕໍ່ການຊໍາລະໃນທົ່ວລະບົບ.
                 </p>
-                <p>
-                        ນິຕິບຸກຄົນໃດ ຕ້ອງການເຂົ້າຮ່ວມ ສາມາດຢື່ນຊອງປະມູນ ແລະ ເອກະສານປະກອບ ທີ່ບໍລິສັດ LAPNet
-                    ອີງຕາມລາຍລະອຽດໃນເອກະສານດ້ານລຸ່ມນີ້.
-                </p>
-                <p>
-                        * ໄລຍະເວລາການເປີດປະມູນ 07 ວັນ ນັບແຕ່ວັນທີ 12 - 19 ສິງຫາ 2024 ນີ້.
-                </p>
+              
+
+
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/2.png" alt="">
+                <img src="../../../../public/images/7/F 1 -02.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/7/F 1 -03.jpg" alt="">
+            </div>
+            <div class="imageinfo">
+                <img src="../../../../public/images/7/F 1 -04.jpg" alt="">
             </div>
             <div class="descriptionline2">
 
@@ -451,20 +453,21 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 
 }
 
 .imageinfo {
     width: 97%;
     height: 500px;
-
+    margin-bottom: 20px;
 }
 
 .descriptionline1 P {
     font-size: 19px;
     font-family: notosanlao;
     padding-bottom: 50px;
+    line-height: 1.7;
 }
 
 .descriptionline1 {
@@ -490,6 +493,7 @@ import ft from '../../Navbar-footer/ft.vue';
     align-items: center;
     width: 100%;
     height: 100%;
+ 
 
 }
 
@@ -512,7 +516,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 220px;
+    height: 210px;
     background-color: #433bff;
 }
 
@@ -543,7 +547,7 @@ import ft from '../../Navbar-footer/ft.vue';
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-fit: center;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     border: 1px solid rgba(0, 0, 0, 0.488);
@@ -563,7 +567,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 2450px;
+    height: 3400px;
 
 }
 
@@ -573,7 +577,6 @@ import ft from '../../Navbar-footer/ft.vue';
     margin: 0 auto;
     height: auto;
     display: flex;
-
 
 
 }
