@@ -2,7 +2,7 @@
 
 import nav_with_imgnavigator2 from '../../Navbar-footer/nav_with_imgnavigator_member2.vue';
 import ft from '../../Navbar-footer/ft.vue';
-import pagination from '../../pagination/pagination.vue';
+import paginationmember2 from './paginationmember2.vue';
 import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
 </script>
 
@@ -13,64 +13,77 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
     <nav_with_imgnavigator2></nav_with_imgnavigator2>
     <div class="cardviewcontainer">
         <div class="leftsidecontainer">
-            <div class="cardmember-bcel">
-                <div class="logobox-bcel">
-                    <img src="../../../assets/logomember-circle/BCEL.png" alt="">
-                </div>
-                <div class="cardnamestyle nameofbank-bcel">
+            <div data-aos="fade-right" data-aos-duration="800">
+                <div class="cardmember-bcel">
+                    <div class="logobox-bcel">
+                        <img src="../../../assets/logomember-circle/BCEL.png" alt="">
+                    </div>
+                    <div class="cardnamestyle nameofbank-bcel">
 
-                    <h1>ທະນາຄານ ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ </h1>
-                    <p>Banque Pour Le Commerce Exterieur Lao Public</p>
+                        <h1>ທະນາຄານ ການຄ້າຕ່າງປະເທດລາວ ມະຫາຊົນ </h1>
+                        <p>Banque Pour Le Commerce Exterieur Lao Public</p>
+                    </div>
                 </div>
             </div>
-            <div class="cardmember-ldb">
-                <div class="logobox-ldb">
-                    <img src="../../../assets/logomember-circle/ldb-gold.png" alt="">
-                </div>
-                <div class="nameofbank-ldb cardnamestyle">
-                    <h1>ທະນາຄານ ພັດທະນາລາວ ຈຳກັດ </h1>
-                    <p>Lao Development Bank </p>
-                </div>
-            </div>
-            <div class="cardmember-apb">
-                <div class="logobox-apb">
-                    <img src="../../../assets/Logomember- retangle/APB.jpeg" alt="">
-                </div>
-                <div class="nameofbank-apb cardnamestyle">
-                    <h1>ທະນາຄານ ສົ່ງເສີມກະສິກໍາ ຈຳກັດ </h1>
-                    <p>Agricultural Promotion Bank </p>
+            <div data-aos="fade-right" data-aos-duration="500">
+                <div class="cardmember-ldb">
+                    <div class="logobox-ldb">
+                        <img src="../../../assets/logomember-circle/ldb-gold.png" alt="">
+                    </div>
+                    <div class="nameofbank-ldb cardnamestyle">
+                        <h1>ທະນາຄານ ພັດທະນາລາວ ຈຳກັດ </h1>
+                        <p>Lao Development Bank </p>
+                    </div>
                 </div>
             </div>
-            <div class="cardmember-jdb">
-                <div class="logobox-jdb">
-                    <img src="../../../assets/logomember-circle/JDBbank.png" alt="">
-                </div>
-                <div class="nameofbank-jdb cardnamestyle">
-                    <h1>ທະນາຄານ ຮ່ວມພັດທະນາ</h1>
-                    <p>Joint Development Bank </p>
-                </div>
-            </div>
-            <div class="cardmember-maru">
-                <div class="logobox-maru">
-                    <img src="../../../assets/Logomember- retangle/MARU.jpg" alt="">
-                </div>
-                <div class="nameofbank-maru cardnamestyle">
-                    <h1>ທະນາຄານ ມາຣູຮານ ເຈແປນ ລາວ ຈຳກັດ </h1>
-                    <p>MARUHAN Japan Bank Lao </p>
+            <div data-aos="fade-right" data-aos-duration="600">
+                <div class="cardmember-apb">
+                    <div class="logobox-apb">
+                        <img src="../../../assets/Logomember- retangle/APB.jpeg" alt="">
+                    </div>
+                    <div class="nameofbank-apb cardnamestyle">
+                        <h1>ທະນາຄານ ສົ່ງເສີມກະສິກໍາ ຈຳກັດ </h1>
+                        <p>Agricultural Promotion Bank </p>
+                    </div>
                 </div>
             </div>
-             <div class="cardmember-lvb">
-                <div class="logobox-lvb">
-                    <img src="../../../assets/logomember-circle/lvb.PNG" alt="">
+            <div data-aos="fade-right" data-aos-duration="700">
+                <div class="cardmember-jdb">
+                    <div class="logobox-jdb">
+                        <img src="../../../assets/logomember-circle/JDBbank.png" alt="">
+                    </div>
+                    <div class="nameofbank-jdb cardnamestyle">
+                        <h1>ທະນາຄານ ຮ່ວມພັດທະນາ</h1>
+                        <p>Joint Development Bank </p>
+                    </div>
                 </div>
-                <div class="nameofbank-lvb cardnamestyle">
-                    <h1>ທະນາຄານ ຮ່ວມທຸລະກິດ ລາວ-ຫວຽດ</h1>
-                    <p>Laos - Vietnam Joint Venture Bank</p>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="800">
+                <div class="cardmember-maru">
+                    <div class="logobox-maru">
+                        <img src="../../../assets/Logomember- retangle/MARU.jpg" alt="">
+                    </div>
+                    <div class="nameofbank-maru cardnamestyle">
+                        <h1>ທະນາຄານ ມາຣູຮານ ເຈແປນ ລາວ ຈຳກັດ </h1>
+                        <p>MARUHAN Japan Bank Lao </p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="900">
+                <div class="cardmember-lvb">
+                    <div class="logobox-lvb">
+                        <img src="../../../assets/logomember-circle/lvb.PNG" alt="">
+                    </div>
+                    <div class="nameofbank-lvb cardnamestyle">
+                        <h1>ທະນາຄານ ຮ່ວມທຸລະກິດ ລາວ-ຫວຽດ</h1>
+                        <p>Laos - Vietnam Joint Venture Bank</p>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class="rightsidecontainer">
-           <div class="searchbar">
+            <div class="searchbar">
                 <div class="searchblog">
                     <h4>ຄົ້ນຫາຂໍ້ມູນຂ່າວສານ</h4>
                 </div>
@@ -81,6 +94,7 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
                     </div>
                 </div>
             </div>
+
             <div class="groupshortmember">
                 <div class="title-group">
                     <h1>ໝວດໝູ່ທະນາຄານສະມາຊິກ</h1>
@@ -90,15 +104,15 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
                         <div class="boxcheck"></div>
                         <p>All</p>
                     </div>
-                     <div class="checkbox1">
+                    <div class="checkbox1">
                         <div class="boxcheck"></div>
                         <p>ກວດສອບຍອດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
                     </div>
-                     <div class="checkbox1">
+                    <div class="checkbox1">
                         <div class="boxcheck"></div>
                         <p>ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
                     </div>
-                     <div class="checkbox1">
+                    <div class="checkbox1">
                         <div class="boxcheck"></div>
                         <p>ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
                     </div>
@@ -106,21 +120,21 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
                         <div class="boxcheck"></div>
                         <p>ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</p>
                     </div>
-                     <div class="checkbox1">
+                    <div class="checkbox1">
                         <div class="boxcheck"></div>
                         <p>ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR</p>
                     </div>
-                     <div class="checkbox1">
+                    <div class="checkbox1">
                         <div class="boxcheck"></div>
                         <p>ຊຳລະຂ້າມແດນຜ່ານ QR Code</p>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </div>
-        <div class="pagination">
-        <pagination></pagination>
+    <div class="pagination">
+        <paginationmember2></paginationmember2>
     </div>
     <footer-logo-member2></footer-logo-member2>
     <ft></ft>
@@ -129,25 +143,27 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
 
 
 <style scoped>
-.pagination{
+.pagination {
     width: 100%;
     height: 300px;
 
 }
-.boxcheck{
+
+.boxcheck {
     width: 30px;
     height: 30px;
     border: 1px solid #433bff;
     border-radius: 5px;
     margin-left: 20px;
 }
-.checkbox1 p{
+
+.checkbox1 p {
     padding-left: 20px;
     font-size: 22px;
     color: #0000009c;
 }
 
-.checkbox1{
+.checkbox1 {
     width: 470px;
     margin-left: 50px;
     display: flex;
@@ -158,47 +174,53 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
     border-radius: 7px;
     margin-bottom: 30px;
 }
-.checkboxshort{
+
+.checkboxshort {
     width: 100%;
     height: 800px;
     margin-top: 60px;
-  
+
     display: inline;
-    
- 
+
+
 }
 
-.title-group h1{
+.title-group h1 {
     font-size: 30px;
     font-family: notosanlao-bold;
     padding-left: 40px;
     padding-top: 30px;
     color: #040072;
 }
-.title-group{
+
+.title-group {
     width: 100%;
     height: 100px;
-     
+
     margin-bottom: 30px;
 }
-.groupshortmember{
+
+.groupshortmember {
     width: 100%;
     height: 1000px;
     background-color: #ebebeb;
     margin-top: 60px;
     border-radius: 15px;
 }
-.searchbar{
+
+.searchbar {
     width: 100%;
     height: 240px;
     background-color: #ebebeb;
     border-radius: 15px;
 }
-.btnsubmit i{
+
+.btnsubmit i {
     font-size: 35px;
     color: white;
 }
-.btnsubmit{
+
+.btnsubmit {
     width: 110px;
     height: 100%;
     background-color: #433bff;
@@ -208,36 +230,42 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
     align-items: center;
     border-bottom-right-radius: 20px;
 }
-.inputsearchblog input::placeholder{
+
+.inputsearchblog input::placeholder {
     padding-left: 30px;
     font-size: 20px;
 }
-.inputsearchblog input{
+
+.inputsearchblog input {
     width: 500px;
     height: 100%;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
     background-color: #fff;
 }
-.inputsearchblog{
+
+.inputsearchblog {
     width: 80%;
     margin: 0 auto;
     height: 80px;
     margin-top: 20px;
     display: flex;
 }
-.searchblog h4{
+
+.searchblog h4 {
     font-size: 30px;
     font-family: notosanlao-bold;
     padding-top: 30px;
     padding-left: 40px;
     color: #040072;
 }
-.searchblog{
+
+.searchblog {
     width: 100%;
     height: 35%;
 
 }
+
 .nameofbank-lvb {
     width: 750px;
     height: 200px;
@@ -284,7 +312,7 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
     height: 300px;
     display: flex;
     align-items: center;
-   
+
     margin-bottom: 10px;
 
 }
@@ -595,7 +623,7 @@ import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
 .rightsidecontainer {
     width: 38%;
     height: 1400px;
-   
+
     margin-left: 2%;
     margin-top: 100px;
 }

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import navbartemplete from '../Navbar-footer/navbartemplete.vue';
-import ft from '../Navbar-footer/ft.vue';
+import navbartemplete from '../../Navbar-footer/navbartemplete.vue';
+import ft from '../../Navbar-footer/ft.vue';
 </script>
 
 
@@ -9,7 +9,7 @@ import ft from '../Navbar-footer/ft.vue';
     <navbartemplete></navbartemplete>
 
     <div class="navigatorcontent">
-        <img id="navigator-img" src="../../assets/newsassets/bgblogdetail.png" alt="">
+        <img id="navigator-img" src="../../../assets/newsassets/bgblogdetail.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
                 <p>ຂ່າວສານ ແລະ ກິດຈະກຳ</p>
@@ -28,7 +28,7 @@ import ft from '../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../assets/newsassets/1.jpg" alt="">
+                <img src="../../../assets/newsassets/1.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
@@ -75,7 +75,7 @@ import ft from '../Navbar-footer/ft.vue';
                 </p>
             </div>
             <div class="imageinfo">
-                <img src="../../assets/newsassets/1.jpg" alt="">
+                <img src="../../../assets/newsassets/1.jpg" alt="">
             </div>
             <div class="descriptionline2">
                 <p>     ການຮ່ວມມືກັນລະຫວ່າງ LAPNet ແລະ UPI ໃນການພັດທະນາລະບົບການຊຳລະລະຫວ່າງປະເທດ ໄດ້ກຳນົດອອກເປັນສອງໄລຍະ
@@ -151,7 +151,7 @@ import ft from '../Navbar-footer/ft.vue';
                 </div>
                 <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../assets/newsassets/2.png" alt="">
+                        <img src="../../../assets/newsassets/2.png" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ</h2>
@@ -164,7 +164,7 @@ import ft from '../Navbar-footer/ft.vue';
 
                  <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../assets/newsassets/3.jpg" alt="">
+                        <img src="../../../assets/newsassets/3.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET</h2>
@@ -176,7 +176,7 @@ import ft from '../Navbar-footer/ft.vue';
                 </div>
                  <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../assets/newsassets/4.png" alt="">
+                        <img src="../../../assets/newsassets/4.png" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ</h2>
@@ -188,7 +188,7 @@ import ft from '../Navbar-footer/ft.vue';
                 </div>
                  <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../assets/newsassets/5.jpg" alt="">
+                        <img src="../../../assets/newsassets/5.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ພິທີ ເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ ແລະ ປະເທດໄທ</h2>
@@ -200,7 +200,7 @@ import ft from '../Navbar-footer/ft.vue';
                 </div>
                  <div class="cardpostrecent">
                     <div class="imgrecentbox">
-                        <img src="../../assets/newsassets/6.jpg" alt="">
+                        <img src="../../../assets/newsassets/6.jpg" alt="">
                     </div>
                     <div class="titlerecentbox">
                         <h2>ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ</h2>

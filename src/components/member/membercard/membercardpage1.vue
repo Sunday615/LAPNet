@@ -2,7 +2,7 @@
 
 import nav_with_imgnavigator from '../../Navbar-footer/nav_with_imgnavigator_member1.vue';
 import ft from '../../Navbar-footer/ft.vue';
-import pagination from '../../pagination/pagination.vue';
+import pagination from '../../pagination/paginationmember1.vue';
 
 import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
 </script>
@@ -14,7 +14,7 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
     <nav_with_imgnavigator></nav_with_imgnavigator>
     <div class="cardviewcontainer">
         <div class="leftsidecontainer">
-            <div data-aos="fade-right" data-aos-duration="200">
+            <div data-aos="fade-right" data-aos-duration="800">
 
                 <div class="cardmember-bcel">
                     <div class="logobox-bcel">

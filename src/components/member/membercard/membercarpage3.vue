@@ -2,7 +2,7 @@
 
 import nav_with_imgnavigator from '../../Navbar-footer/nav_with_imgnavigator_member1.vue';
 import ft from '../../Navbar-footer/ft.vue';
-import pagination from '../../pagination/pagination.vue';
+import pagination from '../../pagination/paginationmember1.vue';
 import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
 </script>
 
@@ -13,6 +13,7 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
     <nav_with_imgnavigator></nav_with_imgnavigator>
     <div class="cardviewcontainer">
         <div class="leftsidecontainer">
+           <div data-aos="fade-right" data-aos-duration="600">
             <div class="cardmember-sacom">
                 <div class="logobox-sacom">
                     <img src="../../../assets/Logomember- retangle/sacombank.png" alt="">
@@ -23,6 +24,8 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
                     <p>Saigon Thuong Tin Commercial Joint Stock Bank</p>
                 </div>
             </div>
+            </div>
+             <div data-aos="fade-right" data-aos-duration="800">
             <div class="cardmember-stb">
                 <div class="logobox-stb">
                     <img src="../../../assets/Logomember- retangle/STB.jpg" alt="">
@@ -32,6 +35,8 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
                     <p>ST Bank Limited</p>
                 </div>
             </div>
+            </div>
+                 <div data-aos="fade-right" data-aos-duration="900">
             <div class="cardmember-kbank">
                 <div class="logobox-kbank">
                     <img src="../../../assets/Logomember- retangle/kbank.jpg" alt="">
@@ -40,7 +45,8 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
                     <h1>ທະນາຄານ ກະສິກອນໄທ ຈຳກັດ</h1>
                     <p>KASIKORNBANK Public Company Limited</p>
                 </div>
-            </div>
+            </div></div>
+                    <div data-aos="fade-right" data-aos-duration="1000">
             <div class="cardmember-pub">
                 <div class="logobox-pub">
                     <img src="../../../assets/logomember-circle/public-bank-logo-png-transparent-2.png" alt="">
@@ -50,8 +56,8 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
                     <p>PUBLIC Bank</p>
                 </div>
             </div>
-           
-        </div>
+            
+        </div></div>
         <div class="rightsidecontainer">
            <div class="searchbar">
                 <div class="searchblog">
@@ -296,7 +302,7 @@ import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
 
 .logobox-stb img {
     width: 300px;
-    height: 300px;
+    height: 250px;
 
 
 }

@@ -16,13 +16,20 @@ import board_of_director from '../components/About-us/board_of_director.vue'
 import companystructure from '../components/About-us/companystructure.vue'
 import contact from '../components/Contact/contact.vue'
 
-import blogdetail from '../components/Blog-news/blogdetail.vue'
+
+
+
+import blogdetail from '../components/Blog-news/blogdetailpage/blogdetail1.vue'
 
 
 
 import membercardpage1 from '../components/member/membercard/membercardpage1.vue'
-import membercardpage2_1 from '../components/member/membermobilebanking/membercardpage2_1.vue'
+import membercardpage2 from '../components/member/membercard/membercardpage2.vue'
+import membercarpage3 from '../components/member/membercard/membercarpage3.vue'
 
+import membercardpage2_1 from '../components/member/membermobilebanking/membercardpage2_1.vue'
+import membercardpage2_2 from '../components/member/membermobilebanking/membercardpage2_2.vue'
+import membercarpage2_3 from '../components/member/membermobilebanking/membercarpage2_3.vue'
 
 const routes = [
   //#################### Products Path #####################
@@ -38,7 +45,12 @@ const routes = [
 
 
   { path: '/member1', name: 'member1', component: membercardpage1 },
+  { path: '/member1_2', name: 'member1_2', component: membercardpage2 },
+  { path: '/member1_3', name: 'member1_3', component: membercarpage3 },
+  //#################### Member2 #####################
   { path: '/member2_1', name: 'member2_1', component: membercardpage2_1 },
+  { path: '/member2_2', name: 'member2_2', component: membercardpage2_2 },
+  { path: '/member2_3', name: 'member2_3', component: membercarpage2_3 },
 
   //####################  Blog-news #####################
 
@@ -64,7 +76,9 @@ const routes = [
 
   //#################### Sub-Route #########################
    { path: '/blogdetail', name: 'blogdetail', component: blogdetail },
-]
+   
+  ]
+
 
 
 
