@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import navbartemplete from '../Navbar-footer/navbartemplete.vue';
 import ft from '../Navbar-footer/ft.vue';
+import navbar from './navbarboarddirector/navbardirector.vue';
 </script>
 
 
@@ -12,24 +13,27 @@ import ft from '../Navbar-footer/ft.vue';
         <img id="navigator-img" src="../../assets/Vision-bg/navigatormission-bg.png" alt="">
         <div class="navigator-info-container">
             <div class="titlenavigator">
-                <p>ສະພາຜູ້ບໍລິຫານ</p>
+                      <div data-aos="zoom-in-down" data-aos-duration="1000">
+                <p>ສະພາຜູ້ບໍລິຫານ</p></div>
             </div>
             <div class="navigatorlink">
+                      <div data-aos="zoom-out-up" data-aos-duration="1000">
                 <p>ໜ້າຫຼັກ <span style="padding-right: 40px; padding-left: 40px;"><i
                             class="fa-solid fa-chevron-right"></i></span> ກ່ຽວກັບພວກເຮົາ <span
                         style="padding-right: 40px; padding-left: 40px;"><i class="fa-solid fa-chevron-right"></i>
-                    </span> ສະພາຜູ້ບໍລິຫານ </p>
+                    </span> ສະພາຜູ້ບໍລິຫານ </p></div>
             </div>
         </div>
     </div>
     <div class="nav_board_of_derictor">
-        <ul>
+        <navbar></navbar>
+        <!-- <ul>
             <li><a href="#">ຄະນະສະພາຜູ້ບໍລິຫານ</a></li>
             <li><a href="#">ຄະນະກຳມະການກວດກາ</a></li>
             <li><a href="#">ຄະນະກຳມະການຄົ້ນຄວ້ານະໂຍບາຍ</a></li>
             <li><a href="#">ຄະນະກຳມະການຄຸ້ມຄອງຄວາມສ່ຽງ</a></li>
             <li><a href="#">ຄະນະກຳມະການຕິດຕາມການພັດທະນາລະບົບ</a></li>
-        </ul>
+        </ul> -->
     </div>
     <div class="boardofdirectorimg">
         <img src="../../assets/Aboutusasset/director-2.png" alt="">

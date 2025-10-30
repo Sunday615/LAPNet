@@ -59,7 +59,8 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
                 <div class="contact">
                     <div class="facebook">
                         <i class="fa-brands fa-facebook"></i>
-                        <p>Lao National Payment Network</p>
+                        <a href="https://www.facebook.com/laonationalpaymentnetwork"> <p>Lao National Payment Network</p></a>
+                       
                     </div>
                     <div class="website">
                         <i class="fa-solid fa-earth-americas"></i>
@@ -79,10 +80,14 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
                 </div>
                 <div class="flexdisplaypreview">
                     <div class="headerswiper">
-<div data-aos="fade-right" data-aos-duration="200"> <h1>LIFT AT</h1></div>
-<div data-aos="fade-right" data-aos-duration="400">  <p>LAPNet</p></div>
-                       
-                       
+                        <div data-aos="fade-right" data-aos-duration="200">
+                            <h1>LIFT AT</h1>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="400">
+                            <p>LAPNet</p>
+                        </div>
+
+
                     </div>
                     <div class="swiperdotpreview">
                         <imageswiper></imageswiper>
@@ -92,18 +97,18 @@ import imageswiper from '../autoscrolling/imageswiper.vue';
         </div>
 
     </div>
-    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"> 
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 
-    <div class="position">
-        <div class="headerposition">
-            <h1> POSITION</h1>
+        <div class="position">
+            <div class="headerposition">
+                <h1> POSITION</h1>
+            </div>
+            <div class="dropdowncontent">
+                <position-dropdown></position-dropdown>
+                <department></department>
+                <levels></levels>
+            </div>
         </div>
-        <div class="dropdowncontent">
-            <position-dropdown></position-dropdown>
-            <department></department>
-            <levels></levels>
-        </div>
-    </div>
     </div>
     <ft></ft>
 
