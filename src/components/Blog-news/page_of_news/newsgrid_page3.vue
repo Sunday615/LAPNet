@@ -58,13 +58,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="/blogdetail10">
                     <div class="cardblog">
                         <div class="cardimg">
-                            <img src="../../../../public/images/10/1.jpg" alt="">
+                            <img style="object-position: top;" src="../../../../public/images/19.png" alt="">
                         </div>
                         <div class="tagdetail">
-                            <p>ຂ່າວບໍລິສັດ - 21 August 2023</p>
+                            <p>ຂ່າວບໍລິສັດ - 17 June 2021</p>
                         </div>
                         <div class="headerblog">
-                            <p>ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເມັ້ນ ເນັດເວີກ ຈຳກັດ ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່</p>
+                            <p>ລາຍຊື່ ຜູ້ຄວບຄຸ່ມລະບົບການຊຳລະທຸລະກຳຍ່ອຍ ຜູ້ໃຫ້ບໍລິການຊຳລະ ທີ່ໄດ້ ຮັບອະນຸຍາດຈາກ ທະນາຄານແຫ່ງ ສປປ ລາວ</p>
                         </div>
                         <div class="readmore">
                             <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
@@ -74,13 +74,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="blogdetail11">
                  <div class="cardblog">
                         <div class="cardimg">
-                            <img src="../../../assets/newsassets/10.jpg" alt="">
+                            <img src="../../../../public/images/20.jpeg" alt="">
                         </div>
                         <div class="tagdetail">
-                            <p>ຂ່າວບໍລິສັດ - 28 April 2023</p>
+                            <p>ຂ່າວບໍລິສັດ - 30 April 2021</p>
                         </div>
                         <div class="headerblog">
-                            <p>LAPNet ໄດ້ສຳເລັດການຈັດກອງປະຊຸມສະພາບໍລິຫານສະໄໝສາມັນ ປະຈຳໄຕມາດ I ປະຈຳປີ 2023</p>
+                            <p>ບໍລິສັດ LAPNet ໄດ້ຮັບມອບຜ້າປິດປາກ ຈາກບໍລິສັດ Viet Card International Technology Corporation</p>
                         </div>
                         <div class="readmore">
                             <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
@@ -89,13 +89,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                     <router-link to="/blogdetail12">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/11.jpeg" alt="">
+                        <img src="../../../../public/images/21.jpg" alt="">
                     </div>
                     <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 05 April 2023</p>
+                        <p>ຂ່າວບໍລິສັດ - 12 March 2021</p>
                     </div>
                     <div class="headerblog">
-                        <p>ພິທີມອບຮັບໃບຍ້ອງຍໍ ຈາກລັດຖະມົນຕີກະຊວງການເງິນ</p>
+                        <p>LAPNet ຈັດກອງປະຊຸມສະພາບໍລິຫານ ສະໄໝສາມັນ ແລະ ກອງປະຊຸມຜູ້ຖືຮຸ້ນ ສະໄໝສາມັນ ຄັ້ງທີ I ປະຈໍາປີ 2021</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>

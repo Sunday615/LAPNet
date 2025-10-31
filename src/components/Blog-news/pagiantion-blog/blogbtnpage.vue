@@ -20,6 +20,13 @@
       >
         Page 2
       </router-link>
+      <router-link
+        to="/newsgridpage3"
+        class="btn"
+        :class="{ active: $route.path === '/newsgridpage3' }"
+      >
+        Page 3
+      </router-link>
    
     </div>
 
@@ -34,7 +41,7 @@ const router = useRouter()
 const route = useRoute()
 
 // รายชื่อ path
-const pages = ['/newsgridpage1' ,'/newsgridpage2']
+const pages = ['/newsgridpage1' ,'/newsgridpage2' , '/newsgridpage3']
 
 
 function nextPage() {
