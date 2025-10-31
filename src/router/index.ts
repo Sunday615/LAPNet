@@ -49,6 +49,10 @@ import Blogdetail16 from '../components/Blog-news/blogdetailpage/blogdetail16.vu
 import Blogdetail17 from '../components/Blog-news/blogdetailpage/blogdetail17.vue'
 import Newsgrid_page3 from '../components/Blog-news/page_of_news/newsgrid_page3.vue'
 
+import Blogdetail18 from '../components/Blog-news/blogdetailpage/blogdetail18.vue'
+import Blogdetail19 from '../components/Blog-news/blogdetailpage/blogdetail19.vue'
+import Blogdetail20 from '../components/Blog-news/blogdetailpage/blogdetail20.vue'
+
 const routes = [
   //#################### Products Path #####################
   { path: '/', name: 'Home', component: mergehomepage },
@@ -75,6 +79,7 @@ const routes = [
   { path: '/newsgridpage1', name: 'newsgrid1', component: newsgrid_page1 },
   { path: '/newsgridpage2', name: 'newsgrid2', component: newsgrid_page2 },
   { path: '/newsgridpage3', name: 'newsgrid3', component: Newsgrid_page3 },
+
 
 
   //#################### Join us #####################
@@ -111,6 +116,9 @@ const routes = [
    { path: '/blogdetail15', name: 'blogdetail15', component: Blogdetail15 },
    { path: '/blogdetail16', name: 'blogdetail16', component: Blogdetail16 },
    { path: '/blogdetail17', name: 'blogdetail17', component: Blogdetail17 },
+   { path: '/blogdetail18', name: 'blogdetail18', component: Blogdetail18 },
+   { path: '/blogdetail19', name: 'blogdetail19', component: Blogdetail19 },
+   { path: '/blogdetail20', name: 'blogdetail20', component: Blogdetail20 },
 
    
   ]

@@ -41,7 +41,7 @@ const router = useRouter()
 const route = useRoute()
 
 // รายชื่อ path
-const pages = ['/newsgridpage1' ,'/newsgridpage2' , '/newsgridpage3']
+const pages = ['/newsgridpage1' ,'/newsgridpage2' , '/newsgridpage3' , ]
 
 
 function nextPage() {

@@ -55,7 +55,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
     <div class="blogcontainer">
         <div data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
             <div class="blogrow">
-                <router-link to="/blogdetail10">
+                <router-link to="/blogdetail18">
                     <div class="cardblog">
                         <div class="cardimg">
                             <img style="object-position: top;" src="../../../../public/images/19.png" alt="">
@@ -71,7 +71,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                         </div>
                     </div>
                 </router-link>
-                <router-link to="blogdetail11">
+                <router-link to="blogdetail19">
                  <div class="cardblog">
                         <div class="cardimg">
                             <img src="../../../../public/images/20.jpeg" alt="">
@@ -86,7 +86,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                             <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                         </div>
                     </div></router-link>
-                    <router-link to="/blogdetail12">
+                    <router-link to="/blogdetail20">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../../public/images/21.jpg" alt="">
@@ -109,31 +109,17 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
         <!-- ################ Row2 #################### -->
         <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
             <div class="blogrow">
-                <router-link to="/blogdetail13">
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/12.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 12 March 2023</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>LAPNet trip 11-12 March 2023 at Vangvieng</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div></router-link>
+              
                 <router-link to="/blogdetail14">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/13.jpg" alt="">
+                        <img src="../../../../public/images/22.jpg" alt="">
                     </div>
                     <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 21 December 2022</p>
+                        <p>ຂ່າວບໍລິສັດ - 08 December 2020</p>
                     </div>
                     <div class="headerblog">
-                        <p>ບໍລິສັດ LAPNet ໄດ້ເຂົ້າຮ່ວມງານ ສັບປະດາດິຈິຕ໋ອນລາວ ປະຈຳປີ 2022</p>
+                        <p>ພິທີເປີດໂຕຜະລິດຕະພັນ ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
@@ -142,20 +128,34 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="/blogdetail15">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/14.jpg" alt="">
+                        <img src="../../../../public/images/23.png" alt="">
                     </div>
                     <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 06 October 2022</p>
+                        <p>ຂ່າວບໍລິສັດ - 22 October 2020</p>
                     </div>
                     <div class="headerblog">
-                        <p>ພິທີລົງນາມສັນຍາວ່າດ້ວຍການເປັນຄູ່ຮ່ວມມື ແລະ ພິທີເປີດໂຕການຊຳລະຂ້າມທະນາຄານຜ່ານ LAPNet QR Pay
-                            ໃນວັນທີ 06 ຕຸລາ 2022 ທີ່ຜ່ານມາ</p>
+                        <p>ກິດຈະກຳກິລາບານເຕະມິດຕະພາບ ລະຫວ່າງບໍລິສັດ LAPNET ຮ່ວມກັບກົມຄຸ້ມຄອງລະບົບຊຳລະສະສາງ</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
                 </div>
                 </router-link>
+                  <router-link to="/blogdetail13">
+                <div class="cardblog">
+                    <div class="cardimg">
+                        <img src="../../../../public/images/24.jpg" alt="">
+                    </div>
+                    <div class="tagdetail">
+                        <p>ຂ່າວບໍລິສັດ - 11 September 2020</p>
+                    </div>
+                    <div class="headerblog">
+                        <p>ກິດຈະກຳກິລາບານເຕະມິດຕະພາບ ລະຫວ່າງບໍລິສັດ LAPNET ຮ່ວມກັບທະນາຄານ JDB Bank</p>
+                    </div>
+                    <div class="readmore">
+                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                    </div>
+                </div></router-link>
             </div>
         </div>
 
@@ -168,14 +168,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="blogdetail15">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/15.jpg" alt="">
+                        <img src="../../../../public/images/25.jpg" alt="">
                     </div>
                     <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 18 December 2021</p>
+                        <p>ຂ່າວບໍລິສັດ - 16 December 2020</p>
                     </div>
                     <div class="headerblog">
-                        <p>ເທດສະການສະຕາດອັບລາວ ບໍລິສັດ LAPNet ກໍໄດ້ຮັບກຽດໃຫ້ເຂົ້າຮ່ວມບັນຍາຍເພື່ອນຳສະເໜີກ່ຽວກັບ ບໍລິສັດ
-                            LAPNet</p>
+                        <p>ບໍລິສັດ ລາວເນເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ ຕ້ອນຮັບຄະນະນັກສຶກສາຈາກວິທະຍາໄລສຸດສະກະ</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
@@ -184,14 +183,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="/blogdetail16">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/16.jpeg" alt="">
+                        <img style="object-position: top;" src="../../../../public/images/26.jpg" alt="">
                     </div>
                     <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 14 July 2021</p>
+                        <p>ຂ່າວບໍລິສັດ - 14 January 2020</p>
                     </div>
                     <div class="headerblog">
-                        <p>ພິທີເຊັນສັນຍາແຕ່ງຕັ້ງທີ່ປຶກສາດ້ານການເງິນ ລະຫວ່າງ ບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ
-                            ແລະ ບໍລິສັດ ຫຼັກຊັບ ລ້ານຊ້າງ ມະຫາຊົນ</p>
+                        <p>ແຈ້ງການປະມູນ</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
@@ -200,13 +198,13 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                 <router-link to="/blogdetail17">
                 <div class="cardblog">
                     <div class="cardimg">
-                        <img src="../../../assets/newsassets/17.jpg" alt="">
+                        <img src="../../../../public/images/27.jpg" alt="">
                     </div>
                     <div class="tagdetail">
                         <p>ຂ່າວບໍລິສັດ - 30 June 2021</p>
                     </div>
                     <div class="headerblog">
-                        <p>ບໍລິສັດ LAPNet ໄດ້ຈັດພິທີມອບ-ຮັບໜ້າທີ່ປະທານສະພາບໍລິຫານຄົນໃຫມ່</p>
+                        <p>ພິທີເປີດບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ</p>
                     </div>
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>

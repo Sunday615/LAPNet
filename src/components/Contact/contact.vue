@@ -126,7 +126,7 @@ const openMap = () => {
     <div class="maps">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.0006600873685!2d102.62610377608371!3d17.97870628301288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x312467f0b486944f%3A0x84af2329498cb982!2sLao%20National%20Payment%20Network%20.%2C%20CO!5e0!3m2!1sth!2sla!4v1760583737341!5m2!1sth!2sla"
-            width="1920" height="900" style="border:0;" allowfullscreen="" loading="lazy"
+            width="100%" height="900" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <ft></ft>
@@ -137,6 +137,7 @@ const openMap = () => {
 .maps {
     margin-top: 100px;
     width: 100%;
+    overflow: hidden;
     height: 900px;
 
 
