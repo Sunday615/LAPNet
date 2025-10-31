@@ -63,7 +63,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
         <div data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
 
             <div class="blogrow">
-                <router-link to="blogdetail">
+                <router-link to="blogdetail1">
                     <div class="cardblog">
                         <div class="cardimg">
                             <img src="../../../assets/newsassets/1.jpg" alt="">
@@ -79,34 +79,38 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                         </div>
                     </div>
                 </router-link>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/2.png" alt="">
+                <router-link to="/blogdetail2">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/2.png" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 12 August 2024</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 12 August 2024</p>
+                </router-link>
+                <router-link to="/blogdetail3">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/3.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 15 May 2024</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="headerblog">
-                        <p>ແຈ້ງເຊີນເຂົ້າຮ່ວມປະມູນຍື່ນຊອງລາຄາ ການບຳລຸງຮັກສາອຸປະກອນເຄືອຂ່າຍ</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/3.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 15 May 2024</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ແຈ້ງເຊີນປະມູນ ອຸປະກອນ HARDWARE ເພື່ອສ້າງສູນສຳຮອງຂໍ້ມູນຂອງບໍລິສັດ LAPNET</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
+                </router-link>
             </div>
         </div>
 
@@ -114,50 +118,57 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
         <!-- ################ Row2 #################### -->
         <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
             <div class="blogrow">
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/4.png" alt="">
+                <router-link to="/blogdetail4">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/4.png" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 03 April 2024</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 03 April 2024</p>
+                </router-link>
+                <router-link to="/blogdetail5">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/5.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 14 March 2024</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ພິທີເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ
+                                ແລະ
+                                ປະເທດໄທ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="headerblog">
-                        <p>ພິທີເປີດໂຕການນຳໃຊ້ລະບົບຊຳລະຂ້າມແດນໃນຮູບແບບ QR CODE ລະຫວ່າງ ລາວ - ໄທ</p>
+                </router-link>
+                <router-link to="/blogdetail6">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/6.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 26 September 2023</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ບໍລິສັດ ລາວເນັເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ
+                                ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/5.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 14 March 2024</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ພິທີເຊັນສັນຍາວ່າດ້ວຍການຮ່ວມມືທາງດ້ານການເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນ QR CODE ລະຫວ່າງ ສປປ ລາວ ແລະ
-                            ປະເທດໄທ</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/6.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 26 September 2023</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ບໍລິສັດ ລາວເນັເຊິນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ
-                            ເດີນທາງໄປແລກປ່ຽນບົດຮຽນທາງດ້ານການໃຫ້ບໍລິການເງິນທີ່ປະເທດສິງກະໂປ</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
         </div>
@@ -167,50 +178,55 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
 
         <div data-aos="fade-down" data-aos-duration="1200" data-aos-once="true">
             <div class="blogrow">
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/7.jpg" alt="">
+                <router-link to="/blogdetail7">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/7.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 15 September 2023</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ກອງປະຊຸມປຶກສາຫາລືຄວາມເປັນໄປໄດ້ໃນການເກັບລາຍຮັບຈາກການຊຳລະຄ່າໄຟຟ້າ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 15 September 2023</p>
+                </router-link>
+                <router-link to="/blogdetail8">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../assets/newsassets/8.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 30 August 2023</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ກອງປະຊຸມ ທາບທາມການນຳສະເໜີຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ
+                                ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="headerblog">
-                        <p>ກອງປະຊຸມປຶກສາຫາລືຄວາມເປັນໄປໄດ້ໃນການເກັບລາຍຮັບຈາກການຊຳລະຄ່າໄຟຟ້າ</p>
+                </router-link>
+                <router-link to="/blogdetail9">
+                    <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../../public/images/9/1.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 21 August 2023</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ເດີນທາງໄປແລກປ່ຽນບົດຮຽນຮ່ວມກັບ ທະນາຄານແຫ່ງລັດຫວຽດນາມ, ບໍລິສັດ ຫຸ້ນສ່ວນຊໍາລະແຫ່ງຊາດຫວຽດນາມ (National Payment Corporation of Vietnam ຫຼື NAPAS)</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
                     </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/8.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 30 August 2023</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ກອງປະຊຸມ ທາບທາມການນຳສະເໜີຂອງທະນາຄານທີ່ມີຄວາມພ້ອມ ແລະ ສະເໜີເປັນທະນາຄານຮັບຊຳລະໃນການ
-                            ເຊື່ອມຕໍ່ລະບົບຊຳລະຂ້າມແດນລະຫວ່າງ ສປປ ລາວ ແລະ ສສ.ຫວຽດນາມ</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/news9.jpg" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 21 August 2023</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການບໍລິສັດ ລາວເນເຊີນນໍ ເພເມັ້ນ ເນັດເວີກ ຈຳກັດ
-                            ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
+                </router-link>
             </div>
         </div>
         <div class="paginationbtn">

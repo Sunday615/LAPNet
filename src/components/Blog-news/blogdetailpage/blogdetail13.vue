@@ -29,14 +29,14 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="container">
         <div class="left-blog-container">
             <div class="blogdetailimg">
-                <img src="../../../../public/images/11/1.jpg" alt="">
+                <img src="../../../../public/images/13/1.jpg" alt="">
             </div>
             <div class="aboutblog">
                 <span>
-                    <p><i class="fa-solid fa-calendar"></i> 28 April 2023</p>
+                    <p><i class="fa-solid fa-calendar"></i> 11 March 2023</p>
                 </span>
                 <span class="padding-icon">
-                    <p><i class="fa-solid fa-bookmark"></i> Meetings</p>
+                    <p><i class="fa-solid fa-bookmark"></i> Activity</p>
                 </span>
                 <span class="padding-icon">
                     <p><i class="fa-solid fa-eye"></i> ໂພສເມື່ອ 2 Year ago</p>
@@ -48,32 +48,33 @@ import ft from '../../Navbar-footer/ft.vue';
                         <i class="fa-solid fa-quote-right"></i>
                     </div>
                     <div class="titleheader">
-                        <h1>LAPNet ໄດ້ສຳເລັດການຈັດກອງປະຊຸມສະພາບໍລິຫານສະໄໝສາມັນ ປະຈຳໄຕມາດ I ປະຈຳປີ 2023.</h1>
+                        <h1>LAPNet trip 11-12 March 2023 at Vangvieng</h1>
                     </div>
                 </div>
             </div>
             <div class="descriptionline1">
-                <p>    LAPNet ໄດ້ສຳເລັດການຈັດກອງປະຊຸມສະພາບໍລິຫານສະໄໝສາມັນ ປະຈຳໄຕມາດ I ປະຈຳປີ 2023 ແລະ ກອງປະຊຸມຜູ້ຖືຮຸ້ນສະໄໝສາມັນ ປະຈຳປີ 2023.  ຄັ້ງວັນທີ 28 ເມາສາ 2023 ທີ່ ທະນາຄານ ຮ່ວມທຸລະກິດ ລາວ-ຫວຽດ. 
-                </p>
-                <p>    ໃນກອງປະຊຸມຄັ້ງນີ້ ເປັນກອງປະຊຸມເພື່ອທົບທວນຜົນການດຳເນີນທຸລະກິດທີ່ຜ່ານມາ ແລະ ວາງແຜນການດຳເນີນທຸລະກິດໃນຕໍ່ໜ້າ.
-                </p>
+                <h2 style="font-size: 30px;">    LAPNet trip 11-12 March 2023 at Vangvieng.
+                </h2>
+               
               
 
 
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/11/1.jpg" alt="">
+                <img style="object-position: bottom;" src="../../../../public/images/13/2.jpg" alt="">
             </div>
             <div class="imageinfo">
-                <img style="object-fit: cover;" src="../../../../public/images/11/2.jpg" alt="">
+                <img style="object-fit: cover;object-position: bottom;" src="../../../../public/images/13/3.jpg" alt="">
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/11/3.jpg" alt="">
+                <img src="../../../../public/images/13/4.jpg" alt="">
             </div>
             <div class="imageinfo">
-                <img src="../../../../public/images/11/4.jpg" alt="">
+                <img src="../../../../public/images/13/5.jpg" alt="">
             </div>
-           
+            <div class="imageinfo">
+                <img src="../../../../public/images/13/1.jpg" alt="">
+            </div>
           
             <div class="descriptionline2">
 
@@ -479,7 +480,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .descriptionline1 {
     width: 97%;
-    height: 460px;
+    height: 150px;
     padding-top: 40px;
 
 }
@@ -523,7 +524,7 @@ import ft from '../../Navbar-footer/ft.vue';
     display: flex;
     width: 97%;
     border-radius: 10px;
-    height: 210px;
+    height: 170px;
     background-color: #433bff;
 }
 
@@ -574,7 +575,7 @@ import ft from '../../Navbar-footer/ft.vue';
 
 .left-blog-container {
     width: 60%;
-    height: 4000px;
+    height: 4100px;
     
 
 

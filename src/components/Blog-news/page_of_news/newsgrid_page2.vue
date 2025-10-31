@@ -55,8 +55,24 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
     <div class="blogcontainer">
         <div data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
             <div class="blogrow">
-                <router-link to="blogdetail">
+                <router-link to="/blogdetail10">
                     <div class="cardblog">
+                        <div class="cardimg">
+                            <img src="../../../../public/images/10/1.jpg" alt="">
+                        </div>
+                        <div class="tagdetail">
+                            <p>ຂ່າວບໍລິສັດ - 21 August 2023</p>
+                        </div>
+                        <div class="headerblog">
+                            <p>ພິທີມອບ-ຮັບ ຕຳແໜ່ງ ປະທານສະພາບໍລິຫານ ແລະ ຜູ້ອຳນວຍການ ບໍລິສັດ ລາວເນເຊີນນໍ ເມັ້ນ ເນັດເວີກ ຈຳກັດ ລະຫວ່າງ ຜູ້ເກົ່າ ແລະ ຜູ້ໃໝ່</p>
+                        </div>
+                        <div class="readmore">
+                            <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
+                        </div>
+                    </div>
+                </router-link>
+                <router-link to="blogdetail11">
+                 <div class="cardblog">
                         <div class="cardimg">
                             <img src="../../../assets/newsassets/10.jpg" alt="">
                         </div>
@@ -69,8 +85,8 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                         <div class="readmore">
                             <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                         </div>
-                    </div>
-                </router-link>
+                    </div></router-link>
+                    <router-link to="/blogdetail12">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/11.jpeg" alt="">
@@ -84,7 +100,16 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
-                </div>
+                </div></router-link>
+                
+            </div>
+
+        </div>
+
+        <!-- ################ Row2 #################### -->
+        <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="blogrow">
+                <router-link to="/blogdetail13">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/12.jpg" alt="">
@@ -98,14 +123,8 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- ################ Row2 #################### -->
-        <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
-            <div class="blogrow">
+                </div></router-link>
+                <router-link to="/blogdetail14">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/13.jpg" alt="">
@@ -119,7 +138,8 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
-                </div>
+                </div></router-link>
+                <router-link to="/blogdetail15">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/14.jpg" alt="">
@@ -135,6 +155,17 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
                 </div>
+                </router-link>
+            </div>
+        </div>
+
+
+
+        <!-- ################ Row3 #################### -->
+
+        <div data-aos="fade-down" data-aos-duration="1200" data-aos-once="true">
+            <div class="blogrow">
+                <router-link to="blogdetail15">
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/15.jpg" alt="">
@@ -149,16 +180,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                     <div class="readmore">
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- ################ Row3 #################### -->
-
-        <div data-aos="fade-down" data-aos-duration="1200" data-aos-once="true">
-            <div class="blogrow">
+                </div></router-link>
                 <div class="cardblog">
                     <div class="cardimg">
                         <img src="../../../assets/newsassets/16.jpeg" alt="">
@@ -188,21 +210,7 @@ import pagination from '../pagiantion-blog/blogbtnpage.vue';
                         <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
                     </div>
                 </div>
-                <div class="cardblog">
-                    <div class="cardimg">
-                        <img src="../../../assets/newsassets/18.png" alt="">
-                    </div>
-                    <div class="tagdetail">
-                        <p>ຂ່າວບໍລິສັດ - 17 June 2021</p>
-                    </div>
-                    <div class="headerblog">
-                        <p>ລາຍຊື່ ຜູ້ຄວບຄຸມລະບົບການຊໍາລະທຸລະກຳຍ່ອຍ ຜູ້ໃຫ້ບໍລິການຊໍາລະ ທີ່ໄດ້ຮັບອະນຸຍາດ ຈາກ ທະນາຄານແຫ່ງ
-                            ສປປ ລາວ</p>
-                    </div>
-                    <div class="readmore">
-                        <p>ອ່ານເພີ່ມເຕີ່ມ <i class="fa-solid fa-circle-arrow-right"></i></p>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="paginationbtn">

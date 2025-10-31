@@ -20,9 +20,9 @@ import Blogdetail11 from './components/Blog-news/blogdetailpage/blogdetail11.vue
 </script>
 
 <template>
-<!-- <RouterView></RouterView> -->
+<RouterView></RouterView>
 
-<Blogdetail11></Blogdetail11>
+
 
 
 

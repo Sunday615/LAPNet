@@ -19,7 +19,18 @@ import contact from '../components/Contact/contact.vue'
 
 
 
-import blogdetail from '../components/Blog-news/blogdetailpage/blogdetail1.vue'
+import blogdetail1 from '../components/Blog-news/blogdetailpage/blogdetail1.vue'
+import blogdetail2 from '../components/Blog-news/blogdetailpage/blogdetail2.vue'
+import blogdetail3 from '../components/Blog-news/blogdetailpage/blogdetail3.vue'
+import blogdetail4 from '../components/Blog-news/blogdetailpage/blogdetail4.vue'
+import blogdetail5 from '../components/Blog-news/blogdetailpage/blogdetail5.vue'
+import blogdetail6 from '../components/Blog-news/blogdetailpage/blogdetail6.vue'
+import blogdetail7 from '../components/Blog-news/blogdetailpage/blogdetail7.vue'
+import blogdetail8 from '../components/Blog-news/blogdetailpage/blogdetail8.vue'
+import blogdetail9 from '../components/Blog-news/blogdetailpage/blogdetail9.vue'
+import blogdetail10 from '../components/Blog-news/blogdetailpage/blogdetail10.vue'
+import blogdetail11 from '../components/Blog-news/blogdetailpage/blogdetail11.vue'
+
 
 
 
@@ -30,6 +41,10 @@ import membercarpage3 from '../components/member/membercard/membercarpage3.vue'
 import membercardpage2_1 from '../components/member/membermobilebanking/membercardpage2_1.vue'
 import membercardpage2_2 from '../components/member/membermobilebanking/membercardpage2_2.vue'
 import membercarpage2_3 from '../components/member/membermobilebanking/membercarpage2_3.vue'
+import Blogdetail12 from '../components/Blog-news/blogdetailpage/blogdetail12.vue'
+import Blogdetail13 from '../components/Blog-news/blogdetailpage/blogdetail13.vue'
+import Blogdetail14 from '../components/Blog-news/blogdetailpage/blogdetail14.vue'
+import Blogdetail15 from '../components/Blog-news/blogdetailpage/blogdetail15.vue'
 
 const routes = [
   //#################### Products Path #####################
@@ -75,7 +90,22 @@ const routes = [
 
 
   //#################### Sub-Route #########################
-   { path: '/blogdetail', name: 'blogdetail', component: blogdetail },
+   { path: '/blogdetail1', name: 'blogdetail1', component: blogdetail1 },
+   { path: '/blogdetail2', name: 'blogdetail2', component: blogdetail2 },
+   { path: '/blogdetail3', name: 'blogdetail3', component: blogdetail3 },
+   { path: '/blogdetail4', name: 'blogdetail4', component: blogdetail4 },
+   { path: '/blogdetail5', name: 'blogdetail5', component: blogdetail5 },
+   { path: '/blogdetail6', name: 'blogdetail6', component: blogdetail6 },
+   { path: '/blogdetail7', name: 'blogdetail7', component: blogdetail7 },
+   { path: '/blogdetail8', name: 'blogdetail8', component: blogdetail8 },
+   { path: '/blogdetail9', name: 'blogdetail9', component: blogdetail9 },
+   { path: '/blogdetail10', name: 'blogdetail10', component: blogdetail10 },
+   { path: '/blogdetail11', name: 'blogdetail11', component: blogdetail11 },
+   { path: '/blogdetail12', name: 'blogdetail12', component: Blogdetail12 },
+   { path: '/blogdetail13', name: 'blogdetail13', component: Blogdetail13 },
+   { path: '/blogdetail14', name: 'blogdetail14', component: Blogdetail14 },
+   { path: '/blogdetail15', name: 'blogdetail15', component: Blogdetail15 },
+
    
   ]
 

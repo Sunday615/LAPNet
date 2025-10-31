@@ -23,7 +23,7 @@ import ft from '../../Navbar-footer/ft.vue';
         </div>
     </div>
     <div class="backbtn">
-        <router-link to="/newsgridpage1"><button><i class="fa-solid fa-angle-left" style=""></i>
+        <router-link to="/newsgridpage2"><button><i class="fa-solid fa-angle-left" style=""></i>
                 ກັບຄືນ</button></router-link>
     </div>
     <div class="container">
