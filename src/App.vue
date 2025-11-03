@@ -17,10 +17,15 @@ import Blogdetail10 from './components/Blog-news/blogdetailpage/blogdetail10.vue
 import Blogdetail11 from './components/Blog-news/blogdetailpage/blogdetail11.vue';
 
 
+import footerdropdown from './components/navbardropdown/footer_dropdown/footerdropdown.vue';
+
+
 </script>
 
 <template>
 <RouterView></RouterView>
+
+
 
 
 

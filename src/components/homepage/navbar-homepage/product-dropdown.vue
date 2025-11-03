@@ -84,7 +84,11 @@ button{
   list-style: none;
   padding: 0;
   z-index: 1000;
+  
+ 
 }
+
+
 
 .dropdown-menu li {
   padding: 10px;
@@ -95,6 +99,9 @@ button{
 }
 
 .dropdown-menu li:hover {
-  background-color: #f0f0f0;
+ 
+  background-color: #ebebeb;
 }
+
+
 </style>

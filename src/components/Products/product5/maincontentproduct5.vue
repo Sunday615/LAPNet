@@ -3,6 +3,17 @@
 import navbartemplete from '../../Navbar-footer/navbartemplete.vue';
 import ft from '../../Navbar-footer/ft.vue';
 
+import { onMounted } from 'vue'
+
+onMounted(() => {
+    // เมื่อ component นี้ถูกโหลด → scroll ขึ้นบนสุด
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth' // ทำให้เลื่อนนุ่มๆ
+    })
+})
+
 </script>
 
 
@@ -46,9 +57,9 @@ import ft from '../../Navbar-footer/ft.vue';
                 </div>
                 <div class="btnproduct">
                     <div data-aos="fade-up" data-aos-duration="1000">
-                    <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
-                        ການບໍລິການ</button>
-                        </div>
+                        <button class="button-66" role="button"> <i class="fa-solid fa-caret-right"></i> ຜະລິດຕະພັນ ແລະ
+                            ການບໍລິການ</button>
+                    </div>
                 </div>
             </div>
             <div class="rightcontentpage1">
@@ -64,25 +75,26 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="contentproduct1-page2">
         <img id="bgpd1-page2" src="../../../assets/Productassets/product5/modernnew.png" alt="">
         <div class="headerpage2-box1">
-                     <div data-aos-duration="1000" data-aos="zoom-in-down">
-            <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
-            <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
-            <p>ຊ່ວຍຫຼຸດຜ່ອນຕົ້ນທຶນທາງດ້ານບຸກຄະລາກອນທີ່ໃຫ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານໜ່ວຍງານບໍລິການ ຫຼື ຕູ້ ATM
-                ຂອງແຕ່ລະ<br>ທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ນັ້ນ, ໃຫ້ລູກຄ້າຫັນມານຳໃຊ້
-                ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື ໃນການ<br>ດຳເນີນທຸລະກຳ.
+            <div data-aos-duration="1000" data-aos="zoom-in-down">
+                <h1>ຜົນປະໂຫຍດທີ່ໄດ້ຮັບ</h1>
+                <h2>ດ້ານທະນາຄານສະມາຊິກ</h2>
+                <p>ຊ່ວຍຫຼຸດຜ່ອນຕົ້ນທຶນທາງດ້ານບຸກຄະລາກອນທີ່ໃຫ້ບໍລິການໂອນເງິນຂ້າມທະນາຄານຜ່ານໜ່ວຍງານບໍລິການ ຫຼື ຕູ້ ATM
+                    ຂອງແຕ່ລະ<br>ທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet ນັ້ນ, ໃຫ້ລູກຄ້າຫັນມານຳໃຊ້
+                    ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື ໃນການ<br>ດຳເນີນທຸລະກຳ.
 
-            </p>
+                </p>
             </div>
         </div>
         <div class="headerpage2-box1">
-                 <div data-aos-duration="1000" data-aos="zoom-in-down">
-            <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
-            <p>ຜະລິດຕະພັນ ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖືນີ້
-                ຈະຊ່ວຍອຳນວຍຄວາມສະດວກໃຫ້ແກ່ມວນຊົນໃນການດຳເນີນທຸລະກຳທາງການເງິນ<br>ຢູ່ເທິງມືຖືໄດ້ງ່າຍ ແລະ ວ່ອງໄວຂື້ນ
-                ໂດຍນຳໃຊ້ Applications ຂອງແຕ່ລະທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet,<br> ຕາມຄຳຂວັນທີ່ກ່າວໄວ້ວ່າ:
-                “ ທຸກທີ່ ທຸກເວລາ ທຸກຊ່ອງທາງການຊຳລະ”
+            <div data-aos-duration="1000" data-aos="zoom-in-down">
+                <h2>ດ້ານລູກຄ້າຂອງທະນາຄານ</h2>
+                <p>ຜະລິດຕະພັນ ການໂອນເງິນຂ້າມທະນາຄານເທິງມືຖືນີ້
+                    ຈະຊ່ວຍອຳນວຍຄວາມສະດວກໃຫ້ແກ່ມວນຊົນໃນການດຳເນີນທຸລະກຳທາງການເງິນ<br>ຢູ່ເທິງມືຖືໄດ້ງ່າຍ ແລະ ວ່ອງໄວຂື້ນ
+                    ໂດຍນຳໃຊ້ Applications ຂອງແຕ່ລະທະນາຄານທຸລະກິດທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet,<br>
+                    ຕາມຄຳຂວັນທີ່ກ່າວໄວ້ວ່າ:
+                    “ ທຸກທີ່ ທຸກເວລາ ທຸກຊ່ອງທາງການຊຳລະ”
 
-            </p>
+                </p>
             </div>
         </div>
 
@@ -90,72 +102,109 @@ import ft from '../../Navbar-footer/ft.vue';
     <div class="memberservice">
         <img id="bgmember" src="../../../assets/Productassets/product5/product5-bg-2.png" alt="">
         <div data-aos="zoom-out-up" data-aos-duration="1000">
-                    <h1>ທະນາຄານທີ່ເປັນສະມາຊິກຂອງການບໍລິການ<br>ຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ LAPNet QR Payment</h1>
+            <h1>ທະນາຄານທີ່ເປັນສະມາຊິກຂອງການບໍລິການ<br>ຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ LAPNet QR Payment</h1>
         </div>
 
         <div class="logoboxcontainer">
+
             <div class="logoline1">
-                <div class="logobox">
-                    <img style="width: 160px;" src="../../../assets/Logomember- retangle/bcelretangle.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width: 160px;" src="../../../assets/Logomember- retangle/bcelretangle.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:195px" src="../../../assets/Logomember- retangle/ldbwithborder.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:195px" src="../../../assets/Logomember- retangle/ldbwithborder.png" alt="">
 
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:150px" src="../../../assets/Logomember- retangle/apbpng.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:150px" src="../../../assets/Logomember- retangle/apbpng.png" alt="">
 
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/jdb.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/jdb.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:180px" src="../../../assets/Logomember- retangle/MARU.jpg" alt=""></img>
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:180px" src="../../../assets/Logomember- retangle/MARU.jpg" alt=""></img>
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/LVB.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/LVB.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/BIC.png" alt=""></img>
+                <div data-aos="fade-down" data-aos-duration="800">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/BIC.png" alt=""></img>
+                    </div>
                 </div>
             </div>
             <div class="logoline2">
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/ICBC.svg.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/ICBC.svg.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/bboc.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/bboc.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px"
-                        src="../../../assets/Logomember- retangle/y-nghia-sau-sac-dang-sau-thiet-ke-logo-vietinbank-0.png"
-                        alt="">
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px"
+                            src="../../../assets/Logomember- retangle/y-nghia-sau-sac-dang-sau-thiet-ke-logo-vietinbank-0.png"
+                            alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/IB.png" alt=""></img>
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/IB.png" alt=""></img>
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/aceleda.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/aceleda.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:190px" src="../../../assets/Logomember- retangle/sacombank.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="900" data-aos-delay="500">
+                    <div class="logobox">
+                        <img style="width:190px" src="../../../assets/Logomember- retangle/sacombank.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="logoline3">
-                <div class="logobox">
-                    <img style="width:160px" src="../../../assets/Logomember- retangle/Stbretangle.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                    <div class="logobox">
+                        <img style="width:160px" src="../../../assets/Logomember- retangle/Stbretangle.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:160px" src="../../../assets/Logomember- retangle/kbank.jpg" alt="">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                    <div class="logobox">
+                        <img style="width:160px" src="../../../assets/Logomember- retangle/kbank.jpg" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:160px" src="../../../assets/Logomember- retangle/bflbank.png" alt="">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                    <div class="logobox">
+                        <img style="width:160px" src="../../../assets/Logomember- retangle/bflbank.png" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:180px" src="../../../assets/Logomember- retangle/psvb.PNG" alt="">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                    <div class="logobox">
+                        <img style="width:180px" src="../../../assets/Logomember- retangle/psvb.PNG" alt="">
+                    </div>
                 </div>
-                <div class="logobox">
-                    <img style="width:170px" src="../../../assets/Logomember- retangle/mbbgblue.jpg" alt=""></img>
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                    <div class="logobox">
+                        <img style="width:170px" src="../../../assets/Logomember- retangle/mbbgblue.jpg" alt=""></img>
+                    </div>
                 </div>
 
             </div>

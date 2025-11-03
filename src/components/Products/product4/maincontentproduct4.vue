@@ -6,6 +6,16 @@ import footerLogoMember4 from './footer_memberservice_product4.vue';
 import ft from '../../Navbar-footer/ft.vue';
 import floating_action from '../../floatingicon/floating_action.vue';
 import iconfloat from '../../floatingicon/iconfloat.vue';
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  // เมื่อ component นี้ถูกโหลด → scroll ขึ้นบนสุด
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth' // ทำให้เลื่อนนุ่มๆ
+  })
+})
 
 </script>
 

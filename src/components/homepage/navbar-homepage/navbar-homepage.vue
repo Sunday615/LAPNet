@@ -3,6 +3,11 @@ import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
 
+
+
+function goTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 </script>
 
 
@@ -18,7 +23,7 @@ import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
             <ul>
                <li><productdropdown></productdropdown></li>
                <li><dropdownmember></dropdownmember></li>
-               <li style="  padding: 10px 20px;"> <router-link to="/newsgridpage1"> ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
+               <li style="  padding: 10px 20px;" @click="goTop()"> <router-link to="/newsgridpage1"> ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
                <li style="  padding: 10px 20px;"><router-link to="/joinus">ຮ່ວມງານກັບເຮົາ</router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>
                <li> <router-link to="/contact">ຕິດຕໍ່ພວກເຮົາ</router-link> </li>

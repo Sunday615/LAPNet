@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import navbartemplete from '../../Navbar-footer/navbartemplete.vue';
 import ft from '../../Navbar-footer/ft.vue';
 
@@ -6,6 +7,18 @@ import year from '../../Dropdown/yeardropdown.vue';
 import monthdropdown from '../../Dropdown/monthdropdown.vue';
 
 import pagination from '../pagiantion-blog/blogbtnpage.vue';
+
+
+
+onMounted(() => {
+
+  window.scrollTo({
+    top: 650, 
+    behavior: 'smooth'
+  })
+})
+  
+ 
 </script>
 
 
