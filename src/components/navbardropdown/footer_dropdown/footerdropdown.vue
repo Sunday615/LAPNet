@@ -1,7 +1,7 @@
 <template>
     <div class="menu-container">
 
-        <!-- เมนูที่ 1 -->
+     
         <router-link to="/newsgridpage1">
             <div class="menu-section">
                 <div class="menu-header" @click="goTop()">
@@ -11,7 +11,7 @@
             </div>
         </router-link>
 
-        <!-- เมนูที่ 2 -->
+       
         <div class="menu-section">
             <div class="menu-header" @click="toggleDropdown(2)">
                 <span>ສະມາຊິກ</span>
@@ -27,7 +27,7 @@
             </transition>
         </div>
 
-        <!-- เมนูที่ 3 -->
+       
         <router-link to="/joinus">
             <div class="menu-section">
                 <div class="menu-header" @click="goTop()">
