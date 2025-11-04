@@ -2,12 +2,8 @@
 import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
-<<<<<<< HEAD
 import search from '../../search/search.vue';
 
-=======
-import searchbar from '../../seachbar/searchbar.vue';
->>>>>>> d5cf47788c985f0940cef3a18ae7a95b7316b976
 
 
 function goTop() {
