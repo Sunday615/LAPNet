@@ -53,6 +53,7 @@ import Blogdetail18 from '../components/Blog-news/blogdetailpage/blogdetail18.vu
 import Blogdetail19 from '../components/Blog-news/blogdetailpage/blogdetail19.vue'
 import Blogdetail20 from '../components/Blog-news/blogdetailpage/blogdetail20.vue'
 
+
 const routes = [
   //#################### Products Path #####################
   { path: '/', name: 'Home', component: mergehomepage },
@@ -84,8 +85,9 @@ const routes = [
 
   //#################### Join us #####################
   { path: '/joinus', name: 'joinus', component: joinus },
+  
 
-
+  
   //#################### About us #####################
   { path: '/vision_mission', name: 'vision_mission', component: vision_mission },
   { path: '/Role', name: 'Role', component: Role },

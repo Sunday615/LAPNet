@@ -2,6 +2,8 @@
 import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
+import search from '../../search/search.vue';
+
 
 </script>
 
@@ -29,10 +31,11 @@ import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
                 <a href="" style="padding-right: 10px;">EN  </a> 
                 <p> / </p>
                 <a href="" style="padding-left: 10px;"> LA</a>
+                
+                
             </div>
             <div class="searchbox">
-
-                <i class="fa-solid fa-magnifying-glass"></i>
+               <search></search>
             </div>
         </div>
     </nav>
@@ -40,6 +43,12 @@ import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
 
 
 <style scoped>
+.searchbox{
+    width: 150px;
+    height: 60px;
+
+
+}
 .searchbox i{
     font-size: 30px;
     color: white;
