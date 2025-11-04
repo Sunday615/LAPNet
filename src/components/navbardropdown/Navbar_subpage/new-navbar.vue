@@ -22,8 +22,8 @@ function goTop() {
         </div>
         <div class="listnavbar">
             <ul>
-               <li><productdropdown></productdropdown></li>
-               <li><dropdownmember></dropdownmember></li>
+               <li @click="goTop()"><productdropdown></productdropdown></li>
+               <li @click="goTop()" ><dropdownmember></dropdownmember></li>
                <li style="  padding: 10px 20px; font-size:21px;" @click="goTop()"><router-link to="/newsgridpage1">ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
                <li style="  padding: 10px 20px; font-size:21px;"> <router-link to="/joinus">ຮ່ວມງານກັບເຮົາ </router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>

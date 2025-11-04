@@ -4,6 +4,16 @@ import nav_with_imgnavigator2 from '../../Navbar-footer/nav_with_imgnavigator_me
 import ft from '../../Navbar-footer/ft.vue';
 import paginationmember2 from './paginationmember2.vue';
 import footerLogoMember2 from '../../Navbar-footer/footer-logo-member2.vue';
+
+import { onMounted } from 'vue';
+
+onMounted(() => {
+
+  window.scrollTo({
+    top: 660, 
+    behavior: 'smooth'
+  })
+})
 </script>
 
 

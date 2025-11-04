@@ -3,7 +3,7 @@
 
      
         <router-link to="/newsgridpage1">
-            <div class="menu-section">
+            <div class="menu-section-sub">
                 <div class="menu-header" @click="goTop()">
                     <span>ຂ່າວສານ ແລະ ກິດຈະກຳ</span>
                     <span class="arrownonrotage" :class="{ open: open1 }">›</span>
@@ -29,7 +29,7 @@
 
        
         <router-link to="/joinus">
-            <div class="menu-section">
+            <div class="menu-section-sub">
                 <div class="menu-header" @click="goTop()">
                     <span>ຮ່ວມງານກັບເຮົາ</span>
                     <span class="arrownonrotage" :class="{ open: open3 }">›</span>
@@ -56,7 +56,7 @@
             </transition>
         </div>
         <router-link to="/contact">
-            <div class="menu-section">
+            <div class="menu-section-sub">
                 <div class="menu-header" @click="goTop()">
                     <span>ຕິດຕໍ່ພວກເຮົາ</span>
                     <span class="arrownonrotage" :class="{ open: open5 }">›</span>
@@ -120,6 +120,11 @@ function toggleDropdown(num) {
 </script>
 
 <style scoped>
+.menu-section-sub:hover{
+     background: rgba(255, 255, 255, 0.08);
+     
+}
+
 * {
     font-family: notosanlao;
 }

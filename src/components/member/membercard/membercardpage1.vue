@@ -5,6 +5,17 @@ import ft from '../../Navbar-footer/ft.vue';
 import pagination from '../../pagination/paginationmember1.vue';
 
 import footerLogoMember1 from '../../Navbar-footer/footer-logo-member1.vue';
+
+import { onMounted } from 'vue';
+
+onMounted(() => {
+
+  window.scrollTo({
+    top: 660, 
+    behavior: 'smooth'
+  })
+})
+
 </script>
 
 

@@ -2,7 +2,7 @@
 import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
-
+import searchbar from '../../seachbar/searchbar.vue';
 
 
 function goTop() {
@@ -21,8 +21,8 @@ function goTop() {
         </div>
         <div class="listnavbar">
             <ul>
-               <li><productdropdown></productdropdown></li>
-               <li><dropdownmember></dropdownmember></li>
+               <li @click="goTop()"><productdropdown></productdropdown></li>
+               <li @click="goTop()"><dropdownmember></dropdownmember></li>
                <li style="  padding: 10px 20px;" @click="goTop()"> <router-link to="/newsgridpage1"> ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
                <li style="  padding: 10px 20px;"><router-link to="/joinus">ຮ່ວມງານກັບເຮົາ</router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>
@@ -36,8 +36,8 @@ function goTop() {
                 <a href="" style="padding-left: 10px;"> LA</a>
             </div>
             <div class="searchbox">
-
-                <i class="fa-solid fa-magnifying-glass"></i>
+               <searchbar></searchbar>
+               
             </div>
         </div>
     </nav>
@@ -45,10 +45,10 @@ function goTop() {
 
 
 <style scoped>
-.searchbox i{
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+.searchbox {
+   width: 150px;
+   border: 1px solid red;
+   height: 80px;
 }
 
 .changelanguage {

@@ -6,6 +6,7 @@ import year from '../../Dropdown/yeardropdown.vue';
 import monthdropdown from '../../Dropdown/monthdropdown.vue';
 
 import pagination from '../pagiantion-blog/blogbtnpage.vue';
+
 onMounted(() => {
 
   window.scrollTo({
@@ -72,10 +73,13 @@ onMounted(() => {
         <div data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
 
             <div class="blogrow">
+             
+
                 <router-link to="blogdetail1">
                     <div class="cardblog">
                         <div class="cardimg">
                             <img src="../../../assets/newsassets/1.jpg" alt="">
+                         
                         </div>
                         <div class="tagdetail">
                             <p>ຂ່າວບໍລິສັດ - 19 December 2024</p>
@@ -256,6 +260,31 @@ onMounted(() => {
 </template>
 
 <style>
+.cardblog:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  
+}
+.cardblog:hover .cardimg img {
+  transform: scale(1.1);
+}
+
+.cardimg img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.7s ease;
+}
+.cardblog:hover {
+  transform: translateY(-5px);
+    
+}
+
 .btn {
     width: 500px;
     height: 120px;
