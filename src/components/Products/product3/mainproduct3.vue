@@ -2,7 +2,17 @@
 import navbartemplete from '../../Navbar-footer/navbartemplete.vue';
 import ft from '../../Navbar-footer/ft.vue';
 import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
+import { onMounted } from 'vue'
+import footer_memberservice_product3 from './footer_memberservice_product3.vue';
 
+onMounted(() => {
+    // เมื่อ component นี้ถูกโหลด → scroll ขึ้นบนสุด
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth' // ทำให้เลื่อนนุ่มๆ
+    })
+})
 </script>
 
 
@@ -116,10 +126,48 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
     <div class="tablefee">
         <img src="../../../assets/Productassets/product3/tablefee.png" alt="">
     </div>
-    <div class="step"></div>
-    <div class="memberlapnet">
-
+    <div class="step">
+        <img id="stepbg"
+            src="../../../assets/Productassets/Product3/Blue Gradient Futuristic Tech Company Presentation-2.png"
+            alt="">
+        <div class="titlestep">
+            <div class="header-step">
+                <h1>ຂັ້ນຕອນການໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM </h1>
+            </div>
+            <div class="imagestep">
+                <img style="width: 100%; height:100% ;object-fit: cover;border-radius: 15px;"
+                    src="../../../assets/Productassets/Product3/lapnetproduct3-2.png" alt="">
+            </div>
+        </div>
+        <div class="infostep">
+            <div class="line1">
+                <h1><i class="fa-solid fa-circle-check"></i> ຂັ້ນຕອນທີ 1 ຈຸດໃຫ້ບໍລິການ</h1>
+                <p>
+                    ການໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM ສາມາດເຮັດທຸລະກຳການໂອນໄດ້ທີ່ຕູ້ ATM ດັ່ງລຸ່ມນີ້:
+                <ul>
+                    <li>1. ບັດ ATM ຂອງທະນາຄານ (A) ສາມາດນຳໃຊ້ຕູ້ຂອງທະນາຄານ (A) ເພື່ອໂອນຫາຜູ້ຮັບປາຍທາງ ທີ່ທະນາຄານ (B)</li>
+                    <li>2. ບັດທະນາຄານ (A) ສາມາດນຳໃຊ້ຕູ້ຂອງທະນາຄານ (B) ເພື່ອໂອນຫາຜູ້ຮັບປາຍທາງທີ່ທະນາຄານ (C)</li>
+                </ul>
+                </p>
+            </div>
+            <div class="line2">
+                <h1><i class="fa-solid fa-circle-check"></i> ຂັ້ນຕອນທີ 2 ສະມາຊິກທີ່ໃຫ້ບໍລິການ</h1>
+                <p>ສາມາດເລືອກໃຊ້ຕູ້ ATM ໃດກໍ່ໄດ້ ພາຍໃນ 16 ທະນາຄານທີ່ເປັນສະມາຊິກຂອງບໍລິສັດ LAPNet</p>
+            </div>
+            <div class="line3">
+                <h1><i class="fa-solid fa-circle-check"></i> ຂັ້ນຕອນທີ 3 ການເຮັດທຸລະກຳ</h1>
+                <p>
+                <ul>
+                    <li>1. ນຳບັດ ATM ປ່ອນເຂົ້າຕູ້ ATM ເຮັດຕາມຂັ້ນຕອນການໂອນເງິນ ແລະ ປ້ອນເລກໜ້າບັດ 16 ໂຕເລກຂອງຜູ້ຮັບປາຍທາງ
+                        ກົດຈຳນວນເງິນ ແລ້ວຢືນຢັນ.</li>
+                    <li>2. ຜູ້ຮັບປາຍທາງຈະໄດ້ຮັບເງິນໂອນທັນທີ ຫຼັງຈາກທຸລະກຳການໂອນເງິນສຳເລັດ.
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
     </div>
+    <footer_memberservice_product3></footer_memberservice_product3>
     <ft></ft>
 
 </template>
@@ -127,17 +175,126 @@ import infinitescrolling from '../../Infinitescrolling/infinitescrolling.vue';
 
 
 <style scoped>
+.imagestep {
+    width: 600px;
+    height: 350px;
+    background-color: #433bff;
+    margin-left: 180px;
+    margin-top: 100px;
+    border-radius: 30px;
+
+}
+
+.line3 ul li {
+    font-size: 20px;
+    font-family: notosanlao;
+    padding-top: 20px;
+}
+
+.line3 h1 {
+
+    font-family: notosanlao-bold;
+    color: #ffeb65;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.line2 p {
+    font-size: 20px;
+    font-family: notosanlao;
+}
+
+.line2 h1 {
+    font-family: notosanlao-bold;
+    color: #ffeb65;
+    font-size: 30px;
+
+}
+
+.line1 ul li,
+p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.line1 h1 {
+    font-family: notosanlao-bold;
+    color: #ffeb65;
+    font-size: 30px;
+}
+
+.line1 {
+    padding-top: 70px;
+    width: 100%;
+    height: 360px;
+
+    font-family: notosanlao;
+    color: #fff;
+
+}
+
+.line2 {
+    width: 100%;
+    height: 230px;
+    padding-top: 15px;
+
+    color: #fff;
+}
+
+.line3 {
+    width: 100%;
+    height: 350px;
+   
+    color: #fff;
+}
+
+.infostep {
+    width: 45%;
+    height: 100%;
+
+ 
+
+}
+
+.titlestep h1 {
+    width: 550px;
+    height: 150px;
+    font-size: 55px;
+   
+    color: #fff;
+    margin-left: 210px;
+    margin-top: 130px;
+    font-family: notosanlao-bold;
+
+}
+
+.titlestep {
+    width: 58%;
+    height: 100%;
+ 
+
+}
+
+.step {
+    width: 100%;
+    height: 940px;
+    display: flex;
+
+}
+
 .menberlapnet {
     width: 100%;
     height: 900px;
     background-color: navy;
 }
 
-.step {
+#stepbg {
     width: 100%;
-    height: 1500px;
-    background-color: #514bff;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
 }
+
 
 .tablefee img {
     width: 100%;

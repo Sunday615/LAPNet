@@ -1,5 +1,10 @@
 <script setup lang="ts">
+import { RouterLink, createWebHashHistory } from 'vue-router';
+import footerdropdown from '../navbardropdown/footer_dropdown/footerdropdown.vue';
 
+function goTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 </script>
 
 
@@ -25,7 +30,7 @@
                         </div>
                         <div class="block1">
                             <div class="iconemail">
-                               <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div class="titleemail">
                                 <p>info@lapnet.com.la</p>
@@ -33,7 +38,7 @@
                         </div>
                         <div class="block1">
                             <div class="iconlocation">
-                               <i class="fa-solid fa-location-dot"></i>
+                                <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div class="titlelocation">
                                 <p>XJHH+FFM, Vientiane</p>
@@ -54,12 +59,13 @@
                             <li>ເບີໂທ: 030 568 7610</li>
                             <li>ເບີໂທ: 021 417915</li>
                             <li>ອີເມວ: info@lapnet.com.la</li>
-                           
+
                         </ul>
                     </div>
                     <div class="facebookbtnfooter">
                         <i class="fa-brands fa-facebook"></i>
-                        <span><a href="">Lao National Payment Network</a></span>
+                        <span><a href="https://www.facebook.com/laonationalpaymentnetwork" target="_blank">Lao National
+                                Payment Network</a></span>
                     </div>
                 </div>
                 <div class="infocenter">
@@ -67,60 +73,65 @@
                         <p>ຜະລິດຕະພັນ ແລະ ການບໍລິການ</p>
                     </div>
                     <div class="menufootercenter">
-                        <div class="menubox">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ກວດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR</p></span>
-                        </div>
-                        <div class="menuboxnonline">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ຊຳລະຂ້າມແດນຜ່ານ QR</p></span>
-                        </div>
+                        <router-link to="/products-service/products-1">
+                            <div class="menubox" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ກວດເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                                </span>
+                            </div>
+                        </router-link>
+                        <router-link to="/products-service/products-2">
+                            <div class="menubox" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ຖອນເງິນສົດຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                                </span>
+                            </div>
+                        </router-link>
+                        <router-link to="/products-service/products-3">
+                            <div class="menubox" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ໂອນເງິນຂ້າມທະນາຄານຜ່ານຕູ້ ATM</p>
+                                </span>
+                            </div>
+                        </router-link>
+                        <router-link to="/products-service/products-4">
+                            <div class="menubox" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ໂອນເງິນຂ້າມທະນາຄານເທິງມືຖື</p>
+                                </span>
+                            </div>
+                        </router-link>
+                        <router-link to="/products-service/products-5">
+                            <div class="menubox" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ການຊຳລະເງິນຂ້າມທະນາຄານຜ່ານ QR</p>
+                                </span>
+                            </div>
+                        </router-link>
+                        <router-link to="/products-service/products-6">
+                            <div class="menuboxnonline" @click="goTop()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>
+                                    <p>ຊຳລະຂ້າມແດນຜ່ານ QR</p>
+                                </span>
+                            </div>
+                        </router-link>
                     </div>
 
-                    
+
                 </div>
                 <div class="infofright">
-                  <div class="titlecenter">
+                    <div class="titlecenter">
                         <p>ເມນູ</p>
                     </div>
                     <div class="menufootercenter">
-                        <div class="menubox">
-                            <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ຂ່າວສານ ແລະ ກິດຈະກຳ</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ສະມາຊິກ</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ຮ່ວມງານກັບເຮົາ</p></span>
-                        </div>
-                        <div class="menubox">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ກ່ຽວກັບພວກເຮົາ</p></span>
-                        </div>
-                        <div class="menuboxnonline">
-                             <i class="fa-solid fa-chevron-right"></i>
-                            <span><p>ຕິດຕໍ່ຫາພວກເຮົາ</p></span>
-                        </div>
-                       
+
+                        <footerdropdown></footerdropdown>
                     </div>
 
                 </div>
@@ -135,96 +146,113 @@
 
 
 <style scoped>
-
-.copyright{
+.copyright {
     width: 80%;
     height: 130px;
     border-top: 0.1px solid rgb(118, 118, 118);
     margin: 0 auto;
-  
+
+
 }
-.copyright p{
+
+.copyright p {
     font-size: 20px;
-    color:  rgb(118, 118, 118);
+    color: rgb(118, 118, 118);
     display: flex;
     justify-content: center;
     margin-top: 35px;
 
 }
-.menufootercenter{
+
+.menufootercenter {
     width: 400px;
     height: 540px;
     margin-top: 30px;
 
-    
+
+
 }
-.menuboxnonline p{
-        color: #fff;
+
+.menuboxnonline p {
+    color: #fff;
     font-family: notosanlao;
     font-size: 20px;
     margin-left: 20px;
 }
-.menuboxnonline i{
-      font-size: 30px;
+
+.menuboxnonline i {
+    font-size: 30px;
     color: #fff;
 }
-.menuboxnonline{
-        width: 400px;
+.menuboxnonline:hover{
+     background: rgba(255, 255, 255, 0.08);
+     
+}
+
+.menuboxnonline {
+    width: 350px;
     height: 90px;
-   
- 
+
+
     display: flex;
     justify-content: start;
     align-items: center;
 }
-.menubox{
+
+.menubox {
     width: 350px;
     height: 90px;
-   
- 
     display: flex;
     justify-content: start;
     align-items: center;
     border-bottom: 1px solid #bebebe;
-    
+
 }
-.menubox span p{
+.menubox:hover{
+     background: rgba(255, 255, 255, 0.08);
+     
+}
+
+.menubox span p {
     color: #fff;
     font-family: notosanlao;
     font-size: 20px;
     margin-left: 20px;
 }
-.menubox i{
+
+.menubox i {
     font-size: 30px;
     color: #fff;
 
 }
 
-.titlecenter p{
+.titlecenter p {
     font-size: 40px;
     color: #fff;
     font-family: notosanlao-bold;
 
 
 }
-.infofright{
+
+.infofright {
     width: 600px;
     height: 600px;
 
     padding-left: 90px;
     margin-top: 100px;
-     
+
 }
 
-.infocenter{
+.infocenter {
     width: 600px;
     height: 600px;
     margin-top: 100px;
     padding-left: 50px;
-   
+
 
 }
-.facebookbtnfooter{
+
+.facebookbtnfooter {
     margin-top: 30px;
     width: 320px;
     height: 50px;
@@ -234,47 +262,54 @@
     justify-content: start;
     align-items: center;
     cursor: pointer;
-    
+
 
 }
-.facebookbtnfooter i{
+
+.facebookbtnfooter i {
     font-size: 40px;
- 
+
     color: #fff;
 }
-.facebookbtnfooter span a{
+
+.facebookbtnfooter span a {
     color: #fff;
     font-size: 17px;
 }
-.titlefooterleft p{
+
+.titlefooterleft p {
     color: #fff;
     font-family: notosanlao-bold;
     font-size: 40px;
     padding-bottom: 60px;
 }
-.infofooterleft ul{
+
+.infofooterleft ul {
     color: #fff;
     font-family: notosanlao;
 }
-.infofooterleft ul li{
+
+.infofooterleft ul li {
     margin-bottom: 15px;
     font-size: 20px;
 }
-.infoftleft{
+
+.infoftleft {
     width: 600px;
     height: 600px;
     margin-top: 100px;
- 
-    padding-left: 140px;
-  
 
-    
+    padding-left: 140px;
+
+
+
 }
+
 .footercontainer {
     width: 100%;
-    height: 900px;
+    height: 1100px;
 
-    
+
 }
 
 .logofooterimg img {
@@ -282,13 +317,15 @@
     height: 150px;
     position: absolute;
 
-   
+
 }
-.bg{
+
+.bg {
     width: 100%;
     height: 150px;
     display: flex;
 }
+
 .bg img {
     width: 100%;
     height: 150px;
@@ -306,86 +343,48 @@
 .rightsideft {
     width: 65%;
     height: 120px;
-    
+
 }
-.logoft{
+
+.logoft {
     width: 32%;
     height: 150px;
-  
+
     display: flex;
     justify-content: end;
 }
-.logoft img{
+
+.logoft img {
     width: 140px;
     margin-top: 3px;
     position: relative;
     height: 140px;
 
 }
-.infoft{
-  
+
+.infoft {
+
     width: 68%;
     height: 150px;
     display: flex;
     margin-left: 150px;
     justify-content: space-around;
     align-items: center;
-    
+
 
 }
 
-.block1{
+.block1 {
     width: 300px;
     height: 100px;
     display: flex;
-    
+
     align-items: center;
-    
+
 
 }
-.iconphone{
-  width: 100px;
-    height: 100px;
-    background-color: white;
-    border-radius: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -15px -15px 3px 0px #000;
-}
-.iconphone i {
-    font-size: 60px;
-    color: #433bff;
-}
 
-.titlephone{
-    margin-left: 10px;
-    font-size: 23px;
-    color: #fff;
-}
-.iconemail{
-  
-  width: 100px;
-    height: 100px;
-    background-color: white;
-    border-radius: 7px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -15px -15px 3px 0px #000;
-}
-.iconemail i{
-  font-size: 60px;
-    color: #433bff;
-}
-.titleemail p {
-   font-size: 23px;
-   margin-left: 10px;
-   color: white;
-}
-
-.iconlocation{
-  
+.iconphone {
     width: 100px;
     height: 100px;
     background-color: white;
@@ -395,32 +394,81 @@
     align-items: center;
     box-shadow: -15px -15px 3px 0px #000;
 }
-.iconlocation i{
-  font-size: 60px;
+
+.iconphone i {
+    font-size: 60px;
     color: #433bff;
 }
-.titlelocation p {
-   font-size: 20px;
-   margin-left: 10px;
-   color: white;
+
+.titlephone {
+    margin-left: 10px;
+    font-size: 23px;
+    color: #fff;
 }
-.infofooter{
+
+.iconemail {
+
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -15px 3px 0px #000;
+}
+
+.iconemail i {
+    font-size: 60px;
+    color: #433bff;
+}
+
+.titleemail p {
+    font-size: 23px;
+    margin-left: 10px;
+    color: white;
+}
+
+.iconlocation {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -15px 3px 0px #000;
+}
+
+.iconlocation i {
+    font-size: 60px;
+    color: #433bff;
+}
+
+.titlelocation p {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.infofooter {
     width: 100%;
-    height: 800px;
+    height:960px;
     display: flex;
     justify-content: space-evenly;
-
+    
 
 
 
 
 }
-.infofooter img{
+
+.infofooter img {
     width: 100%;
-    height: 100%;
+    height: 1100px;
     position: absolute;
     z-index: -1;
+    
 
 }
-
 </style>

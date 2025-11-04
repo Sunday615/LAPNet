@@ -4,6 +4,10 @@ import dropdownmember from './memberdropdown.vue'
 import aboutusdropdown from './aboutusdropdown.vue';
 
 
+function goTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
 </script>
 
 
@@ -18,9 +22,9 @@ import aboutusdropdown from './aboutusdropdown.vue';
         </div>
         <div class="listnavbar">
             <ul>
-               <li><productdropdown></productdropdown></li>
-               <li><dropdownmember></dropdownmember></li>
-               <li style="  padding: 10px 20px; font-size:21px;"><router-link to="/newsgridpage1">ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
+               <li @click="goTop()"><productdropdown></productdropdown></li>
+               <li @click="goTop()" ><dropdownmember></dropdownmember></li>
+               <li style="  padding: 10px 20px; font-size:21px;" @click="goTop()"><router-link to="/newsgridpage1">ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
                <li style="  padding: 10px 20px; font-size:21px;"> <router-link to="/joinus">ຮ່ວມງານກັບເຮົາ </router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>
                <li style="font-size:21px;"> <router-link to="/contact">ຕິດຕໍ່ພວກເຮົາ</router-link> </li>

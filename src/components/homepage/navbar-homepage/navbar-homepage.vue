@@ -2,9 +2,17 @@
 import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
+<<<<<<< HEAD
 import search from '../../search/search.vue';
 
+=======
+import searchbar from '../../seachbar/searchbar.vue';
+>>>>>>> d5cf47788c985f0940cef3a18ae7a95b7316b976
 
+
+function goTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 </script>
 
 
@@ -18,9 +26,9 @@ import search from '../../search/search.vue';
         </div>
         <div class="listnavbar">
             <ul>
-               <li><productdropdown></productdropdown></li>
-               <li><dropdownmember></dropdownmember></li>
-               <li style="  padding: 10px 20px;"> <router-link to="/newsgridpage1"> ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
+               <li @click="goTop()"><productdropdown></productdropdown></li>
+               <li @click="goTop()"><dropdownmember></dropdownmember></li>
+               <li style="  padding: 10px 20px;" @click="goTop()"> <router-link to="/newsgridpage1"> ຂ່າວສານ ແລະ ກິດຈະກຳ</router-link></li>
                <li style="  padding: 10px 20px;"><router-link to="/joinus">ຮ່ວມງານກັບເຮົາ</router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>
                <li> <router-link to="/contact">ຕິດຕໍ່ພວກເຮົາ</router-link> </li>
@@ -35,7 +43,12 @@ import search from '../../search/search.vue';
                 
             </div>
             <div class="searchbox">
+<<<<<<< HEAD
                <search></search>
+=======
+               <searchbar></searchbar>
+               
+>>>>>>> d5cf47788c985f0940cef3a18ae7a95b7316b976
             </div>
         </div>
     </nav>
@@ -43,6 +56,7 @@ import search from '../../search/search.vue';
 
 
 <style scoped>
+<<<<<<< HEAD
 .searchbox{
     width: 150px;
     height: 60px;
@@ -53,6 +67,12 @@ import search from '../../search/search.vue';
     font-size: 30px;
     color: white;
     cursor: pointer;
+=======
+.searchbox {
+   width: 150px;
+   border: 1px solid red;
+   height: 80px;
+>>>>>>> d5cf47788c985f0940cef3a18ae7a95b7316b976
 }
 
 .changelanguage {

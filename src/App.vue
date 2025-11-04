@@ -8,19 +8,19 @@ import mergehomepage from './components/homepage/mergehomepage.vue';
 import newsgrid_page2 from './components/Blog-news/page_of_news/newsgrid_page2.vue';
 import imageswiper from './components/autoscrolling/imageswiper.vue';
 import popup from './components/popup/popup.vue';
+import searchbar from './components/seachbar/searchbar.vue';
 
-import Blogdetail6 from './components/Blog-news/blogdetailpage/blogdetail6.vue';
-import Blogdetail7 from './components/Blog-news/blogdetailpage/blogdetail7.vue';
-import Blogdetail8 from './components/Blog-news/blogdetailpage/blogdetail8.vue';
-import Blogdetail9 from './components/Blog-news/blogdetailpage/blogdetail9.vue';
-import Blogdetail10 from './components/Blog-news/blogdetailpage/blogdetail10.vue';
-import Blogdetail11 from './components/Blog-news/blogdetailpage/blogdetail11.vue';
+
+
+import cardhover_effect from './components/cardhover/cardhover_effect.vue';
 
 
 </script>
 
 <template>
+   <!-- <cardhover_effect></cardhover_effect> -->
 <RouterView></RouterView>
+
 
 
 
