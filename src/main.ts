@@ -7,10 +7,7 @@ import router from './router'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import $ from 'jquery'   // นำเข้า jQuery
 
-window.$ = $             // ทำให้เรียกใช้ผ่าน window.$ ได้ทุกที่
-window.jQuery = $
 
 const app = createApp(App)
 

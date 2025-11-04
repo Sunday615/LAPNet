@@ -3,6 +3,7 @@ import productdropdown from './product-dropdown.vue'
 import dropdownmember from './memberdropdown.vue'
 import aboutusdropdown from './aboutusdropdown.vue';
 
+import searchbtn from '../../search/searchbtn.vue';
 
 function goTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -28,6 +29,7 @@ function goTop() {
                <li style="  padding: 10px 20px; font-size:21px;"> <router-link to="/joinus">ຮ່ວມງານກັບເຮົາ </router-link> </li>
                <li><aboutusdropdown></aboutusdropdown></li>
                <li style="font-size:21px;"> <router-link to="/contact">ຕິດຕໍ່ພວກເຮົາ</router-link> </li>
+           
             </ul>
         </div>
     </nav>

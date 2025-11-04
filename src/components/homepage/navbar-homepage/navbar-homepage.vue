@@ -2,7 +2,7 @@
 import productdropdown from '../navbar-homepage/product-dropdown.vue'
 import dropdownmember from '../navbar-homepage/memberdropdown.vue'
 import aboutusdropdown from '../navbar-homepage/aboutusdropdown.vue';
-
+import searchbtn from '../../search/searchbtn.vue';
 
 
 
@@ -39,7 +39,7 @@ function goTop() {
                 
             </div>
             <div class="searchbox">
-            
+                <searchbtn></searchbtn>
             </div>
         </div>
     </nav>
@@ -50,6 +50,7 @@ function goTop() {
 .searchbox{
     width: 150px;
     height: 60px;
+    border: 1px solid red;
 
 
 }
